@@ -1,0 +1,155 @@
+﻿{
+  "#": {
+    "home": "Trang chủ",
+    "migrate": "Load database",
+    "migrate/csharp": "C#",
+    "migrate/s/model": "Models",
+    "migrate/s/view": "Views",
+    "migrate/s/controller": "Controllers",
+    "migrate/sql": "SQL",
+    "migrate/s/proc": "Procedures",
+    "taikhoan": "Quản lý người dùng",
+    "taikhoan/lichsu": "Lịch sử đăng nhập",
+    //"hanhchinh": "Quản lý hành chính",
+    //"hanhchinh/huyen": "Đơn vị cấp huyện",
+    //"hanhchinh/xa": "Đơn vị cấp xã",
+    "me/changepass": "Đổi mật khẩu",
+
+    "coso": "Cơ sở",
+    "coso/index": "Danh sách cơ sở",
+    "coso/mohinhchannuoi": "Số lượng cơ sở chăn nuôi",
+    "coso/gietmo": "Cơ sở giết mổ",
+    "coso/chicucthuy": "Chi cục thú y",
+    "coso/dailybanthuoc": "Đại lý bán thuốc",
+    "coso/khutamgiu": "Khu tạm giữ, tiêu hủy",
+
+    "ToChucCaNhan": "Tổ chức cá nhân",
+    "ToChucCaNhan/index": "Danh mục tổ chức cá nhân",
+    "ToChucCaNhan/thongke": "Thống kê",
+
+    "hochannuoi/index": "Danh sách số hộ chăn nuôi",
+    "hochannuoi/thongke": "Vùng chăn nuôi đạt chuẩn",
+
+    "sanphamxulychatthai": "Sản phẩm xử lý chất thải",
+    "sanphamxulychatthai/index": "Sản phẩm xử lý chất thải",
+    "sanphamxulychatthai/sanphamconhan": "Sản phẩm còn hạn sử dụng",
+
+    "giaychungnhan/index": "Giấy Chứng Nhận",
+
+    "tochucchungnhan/index": "Tổ Chức Chứng Nhận",
+
+    "vungchannuoi": "Vùng chăn nuôi",
+    "vungchannuoi/index": "Vùng chăn nuôi",
+
+    "DieuKienChanNuoi/index": "Điều kiện chăn nuôi",
+
+    "DonViHanhChinh/index": " Tổng hợp đơn vị hành chính",
+    "DonViHanhChinh/ThongKeHuyen": "Thống kê Huyện",
+    "DonViHanhChinh/ThongKePhuong": "Thống kê Phường",
+    "DonViHanhChinh/ThongKeXa": "Thống kê Xã",
+
+    "qlcn": "Quản Lý Chăn nuôi",
+
+    ".": ""
+  },
+  "actors": {
+    "Developer": {
+      "home": {
+        "Childs": [
+          {
+            "Text": "SQL",
+            "Refs": [ "migrate" ]
+          }
+        ]
+      },
+      "migrate/csharp": {
+        "Childs": [
+          {
+            "Text": "Project",
+            "Refs": [ "migrate/s/model", "migrate/s/controller", "migrate/s/view" ]
+          }
+        ]
+      },
+      "migrate/sql": {
+        "Childs": [
+          {
+            "Text": "Project",
+            "Refs": [ "migrate/s/proc" ]
+          }
+        ]
+      }
+    },
+    "Admin": {
+      "home": {
+        "Childs": [
+          {
+            "Text": "Người dùng",
+            "Refs": [ "taikhoan", "taikhoan/lichsu" ]
+          },
+          {
+            "Text": "Đơn Vị Hành Chính",
+            //"Url": "DonViHanhChinh",
+            "Refs": [ "DonViHanhChinh/index", "DonViHanhChinh/ThongKeHuyen", "DonViHanhChinh/ThongKePhuong", "DonViHanhChinh/ThongKeXa" ]
+          },
+          {
+            "Text": "Profile",
+            "Refs": [ "me/changepass" ]
+          }
+        ]
+      },
+      "qlcn": {
+        "Childs": [
+          {
+            "Text": "Vùng chăn nuôi",
+            "Refs": [
+              "vungchannuoi/index",
+              "hochannuoi/index"
+              //"hochannuoi/thongke"
+
+            ]
+          },
+          {
+            "Text": "Điều kiện chăn nuôi",
+            "Refs": [
+              "DieuKienChanNuoi/index",
+              "hochannuoi/thongke"
+            ]
+          },
+          {
+            "Text": "Cơ sở",
+            "Refs": [
+              "coso/index",
+              "coso/mohinhchannuoi"
+            ]
+          },
+          {
+            "Text": "Tổ chức cá nhân",
+            "Url": "ToChucCaNhan",
+            "Refs": [
+              "ToChucCaNhan/index",
+              "giaychungnhan/index",
+              "tochucchungnhan/index"
+            ]
+          },
+          {
+            "Text": "Xử Lý Chất Thải",
+            "Url": "SanPhamXuLyChatThai",
+            "Refs": [
+              "sanphamxulychatthai/index",
+              "sanphamxulychatthai/sanphamconhan"
+            ]
+          },
+          {
+            "Text": "Khác",
+            "Refs": [
+              "coso/gietmo",
+              "coso/chicucthuy",
+              "coso/dailybanthuoc",
+              "coso/khutamgiu"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\QLCN20250505\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|c:\\users\\vuthi\\documents\\zalo received files\\20242\\qlcn20250505\\winapp\\models\\sanphamxulychatthai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\models\\sanphamxulychatthai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|c:\\users\\vuthi\\documents\\zalo received files\\20242\\qlcn20250505\\winapp\\models\\coso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\models\\coso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|c:\\users\\vuthi\\documents\\zalo received files\\20242\\qlcn20250505\\winapp\\app_data\\actions.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\app_data\\actions.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|c:\\users\\vuthi\\documents\\zalo received files\\20242\\qlcn20250505\\winapp\\controllers\\sanphamxulychatthaicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\controllers\\sanphamxulychatthaicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|c:\\users\\vuthi\\documents\\zalo received files\\20242\\qlcn20250505\\winapp\\controllers\\cosocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\controllers\\cosocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|c:\\users\\vuthi\\documents\\zalo received files\\20242\\qlcn20250505\\winapp\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|c:\\users\\vuthi\\documents\\zalo received files\\20242\\qlcn20250505\\winapp\\models\\migration\\provider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\models\\migration\\provider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|c:\\users\\vuthi\\documents\\zalo received files\\20242\\qlcn20250505\\winapp\\views\\sanphamxulychatthai\\sanphamxulychatthaimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\views\\sanphamxulychatthai\\sanphamxulychatthaimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|c:\\users\\vuthi\\documents\\zalo received files\\20242\\qlcn20250505\\winapp\\models\\migrateresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\models\\migrateresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|c:\\users\\vuthi\\documents\\zalo received files\\20242\\qlcn20250505\\winapp\\controllers\\migrateresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\controllers\\migrateresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|c:\\users\\vuthi\\documents\\zalo received files\\20242\\qlcn20250505\\winapp\\models\\donvi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\models\\donvi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|c:\\users\\vuthi\\documents\\zalo received files\\20242\\qlcn20250505\\winapp\\models\\migration\\codegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\models\\migration\\codegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CoSoController.cs",
+              "DocumentMoniker": "C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\QLCN20250505\\WinApp\\Controllers\\CoSoController.cs",
+              "RelativeDocumentMoniker": "WinApp\\Controllers\\CoSoController.cs",
+              "ToolTip": "C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\QLCN20250505\\WinApp\\Controllers\\CoSoController.cs",
+              "RelativeToolTip": "WinApp\\Controllers\\CoSoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T06:03:14.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MigrateResult.cs",
+              "DocumentMoniker": "C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\QLCN20250505\\WinApp\\Models\\MigrateResult.cs",
+              "RelativeDocumentMoniker": "WinApp\\Models\\MigrateResult.cs",
+              "ToolTip": "C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\QLCN20250505\\WinApp\\Models\\MigrateResult.cs",
+              "RelativeToolTip": "WinApp\\Models\\MigrateResult.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T06:02:25.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MigrateResult.cs",
+              "DocumentMoniker": "C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\QLCN20250505\\WinApp\\Controllers\\MigrateResult.cs",
+              "RelativeDocumentMoniker": "WinApp\\Controllers\\MigrateResult.cs",
+              "ToolTip": "C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\QLCN20250505\\WinApp\\Controllers\\MigrateResult.cs",
+              "RelativeToolTip": "WinApp\\Controllers\\MigrateResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T06:02:13.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SanPhamXuLyChatThaiController.cs",
+              "DocumentMoniker": "C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\QLCN20250505\\WinApp\\Controllers\\SanPhamXuLyChatThaiController.cs",
+              "RelativeDocumentMoniker": "WinApp\\Controllers\\SanPhamXuLyChatThaiController.cs",
+              "ToolTip": "C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\QLCN20250505\\WinApp\\Controllers\\SanPhamXuLyChatThaiController.cs",
+              "RelativeToolTip": "WinApp\\Controllers\\SanPhamXuLyChatThaiController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T06:01:36.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SanPhamXuLyChatThai.cs",
+              "DocumentMoniker": "C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\QLCN20250505\\WinApp\\Models\\SanPhamXuLyChatThai.cs",
+              "RelativeDocumentMoniker": "WinApp\\Models\\SanPhamXuLyChatThai.cs",
+              "ToolTip": "C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\QLCN20250505\\WinApp\\Models\\SanPhamXuLyChatThai.cs",
+              "RelativeToolTip": "WinApp\\Models\\SanPhamXuLyChatThai.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T05:54:54.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CoSo.cs",
+              "DocumentMoniker": "C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\QLCN20250505\\WinApp\\Models\\CoSo.cs",
+              "RelativeDocumentMoniker": "WinApp\\Models\\CoSo.cs",
+              "ToolTip": "C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\QLCN20250505\\WinApp\\Models\\CoSo.cs",
+              "RelativeToolTip": "WinApp\\Models\\CoSo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T05:55:10.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Actions.json",
+              "DocumentMoniker": "C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\QLCN20250505\\WinApp\\App_Data\\Actions.json",
+              "RelativeDocumentMoniker": "WinApp\\App_Data\\Actions.json",
+              "ToolTip": "C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\QLCN20250505\\WinApp\\App_Data\\Actions.json",
+              "RelativeToolTip": "WinApp\\App_Data\\Actions.json",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-15T06:06:02.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\QLCN20250505\\WinApp\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "WinApp\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\QLCN20250505\\WinApp\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "WinApp\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T06:19:53.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SanPhamXuLyChatThaiManager.cs",
+              "DocumentMoniker": "C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\QLCN20250505\\WinApp\\Views\\SanPhamXuLyChatThai\\SanPhamXuLyChatThaiManager.cs",
+              "RelativeDocumentMoniker": "WinApp\\Views\\SanPhamXuLyChatThai\\SanPhamXuLyChatThaiManager.cs",
+              "ToolTip": "C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\QLCN20250505\\WinApp\\Views\\SanPhamXuLyChatThai\\SanPhamXuLyChatThaiManager.cs",
+              "RelativeToolTip": "WinApp\\Views\\SanPhamXuLyChatThai\\SanPhamXuLyChatThaiManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T06:05:11.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CodeGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\QLCN20250505\\WinApp\\Models\\Migration\\CodeGenerator.cs",
+              "RelativeDocumentMoniker": "WinApp\\Models\\Migration\\CodeGenerator.cs",
+              "ToolTip": "C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\QLCN20250505\\WinApp\\Models\\Migration\\CodeGenerator.cs",
+              "RelativeToolTip": "WinApp\\Models\\Migration\\CodeGenerator.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T05:57:43.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Provider.cs",
+              "DocumentMoniker": "C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\QLCN20250505\\WinApp\\Models\\Migration\\Provider.cs",
+              "RelativeDocumentMoniker": "WinApp\\Models\\Migration\\Provider.cs",
+              "ToolTip": "C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\QLCN20250505\\WinApp\\Models\\Migration\\Provider.cs",
+              "RelativeToolTip": "WinApp\\Models\\Migration\\Provider.cs",
+              "ViewState": "AgIAAOEBAAAAAAAAAAAhwOsBAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T05:14:52.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DonVi.cs",
+              "DocumentMoniker": "C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\QLCN20250505\\WinApp\\Models\\DonVi.cs",
+              "RelativeDocumentMoniker": "WinApp\\Models\\DonVi.cs",
+              "ToolTip": "C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\QLCN20250505\\WinApp\\Models\\DonVi.cs",
+              "RelativeToolTip": "WinApp\\Models\\DonVi.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T05:57:29.197Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
