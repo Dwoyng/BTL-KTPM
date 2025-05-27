@@ -1,49 +1,49 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\KTPM_FULL\\",
+  "WorkspaceRootPath": "C:\\Users\\duong\\Downloads\\BTL-KTPM\\KTPM_FULL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|c:\\users\\vuthi\\documents\\zalo received files\\20242\\ktpm_full\\winapp\\models\\migration\\provider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|c:\\users\\duong\\downloads\\btl-ktpm\\ktpm_full\\winapp\\models\\migration\\provider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\models\\migration\\provider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\KTPM_FULL\\winapp\\views\\hanhchinh\\hanhchinhmanagerview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\Users\\duong\\Downloads\\BTL-KTPM\\KTPM_FULL\\winapp\\views\\hanhchinh\\hanhchinhmanagerview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\views\\hanhchinh\\hanhchinhmanagerview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\KTPM_FULL\\winapp\\models\\donvi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\Users\\duong\\Downloads\\BTL-KTPM\\KTPM_FULL\\winapp\\models\\donvi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\models\\donvi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\KTPM_FULL\\winapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\Users\\duong\\Downloads\\BTL-KTPM\\KTPM_FULL\\winapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\KTPM_FULL\\winapp\\app_data\\actions.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\Users\\duong\\Downloads\\BTL-KTPM\\KTPM_FULL\\winapp\\app_data\\actions.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\app_data\\actions.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\KTPM_FULL\\winapp\\models\\migration\\codegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\Users\\duong\\Downloads\\BTL-KTPM\\KTPM_FULL\\winapp\\models\\migration\\codegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\models\\migration\\codegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\KTPM_FULL\\winapp\\controllers\\taikhoancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\Users\\duong\\Downloads\\BTL-KTPM\\KTPM_FULL\\winapp\\controllers\\taikhoancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\controllers\\taikhoancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\KTPM_FULL\\winapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\Users\\duong\\Downloads\\BTL-KTPM\\KTPM_FULL\\winapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\KTPM_FULL\\winapp\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\Users\\duong\\Downloads\\BTL-KTPM\\KTPM_FULL\\winapp\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\KTPM_FULL\\winapp\\views\\baseview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\Users\\duong\\Downloads\\BTL-KTPM\\KTPM_FULL\\winapp\\views\\baseview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\views\\baseview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\KTPM_FULL\\winapp\\app_data\\config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\Users\\duong\\Downloads\\BTL-KTPM\\KTPM_FULL\\winapp\\app_data\\config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\app_data\\config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -54,19 +54,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "HanhChinhManagerView.cs",
-              "DocumentMoniker": "C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\KTPM_FULL\\WinApp\\Views\\HanhChinh\\HanhChinhManagerView.cs",
+              "DocumentMoniker": "C:\\Users\\duong\\Downloads\\BTL-KTPM\\KTPM_FULL\\WinApp\\Views\\HanhChinh\\HanhChinhManagerView.cs",
               "RelativeDocumentMoniker": "WinApp\\Views\\HanhChinh\\HanhChinhManagerView.cs",
-              "ToolTip": "C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\KTPM_FULL\\WinApp\\Views\\HanhChinh\\HanhChinhManagerView.cs",
+              "ToolTip": "C:\\Users\\duong\\Downloads\\BTL-KTPM\\KTPM_FULL\\WinApp\\Views\\HanhChinh\\HanhChinhManagerView.cs",
               "RelativeToolTip": "WinApp\\Views\\HanhChinh\\HanhChinhManagerView.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAhwA4AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -76,9 +72,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "DonVi.cs",
-              "DocumentMoniker": "C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\KTPM_FULL\\WinApp\\Models\\DonVi.cs",
+              "DocumentMoniker": "C:\\Users\\duong\\Downloads\\BTL-KTPM\\KTPM_FULL\\WinApp\\Models\\DonVi.cs",
               "RelativeDocumentMoniker": "WinApp\\Models\\DonVi.cs",
-              "ToolTip": "C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\KTPM_FULL\\WinApp\\Models\\DonVi.cs",
+              "ToolTip": "C:\\Users\\duong\\Downloads\\BTL-KTPM\\KTPM_FULL\\WinApp\\Models\\DonVi.cs",
               "RelativeToolTip": "WinApp\\Models\\DonVi.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -88,11 +84,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Provider.cs",
-              "DocumentMoniker": "C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\KTPM_FULL\\WinApp\\Models\\Migration\\Provider.cs",
+              "DocumentMoniker": "C:\\Users\\duong\\Downloads\\BTL-KTPM\\KTPM_FULL\\WinApp\\Models\\Migration\\Provider.cs",
               "RelativeDocumentMoniker": "WinApp\\Models\\Migration\\Provider.cs",
-              "ToolTip": "C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\KTPM_FULL\\WinApp\\Models\\Migration\\Provider.cs",
+              "ToolTip": "C:\\Users\\duong\\Downloads\\BTL-KTPM\\KTPM_FULL\\WinApp\\Models\\Migration\\Provider.cs",
               "RelativeToolTip": "WinApp\\Models\\Migration\\Provider.cs",
-              "ViewState": "AgIAAOoBAAAAAAAAAAAkwAICAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAANwBAAAAAAAAAAAiwOUBAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-05T07:48:02.313Z",
               "EditorCaption": ""
@@ -101,9 +97,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\KTPM_FULL\\WinApp\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\duong\\Downloads\\BTL-KTPM\\KTPM_FULL\\WinApp\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "WinApp\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\KTPM_FULL\\WinApp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\duong\\Downloads\\BTL-KTPM\\KTPM_FULL\\WinApp\\Controllers\\HomeController.cs",
               "RelativeToolTip": "WinApp\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAIA0wA8AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -113,9 +109,9 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\KTPM_FULL\\WinApp\\Controllers\\LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\duong\\Downloads\\BTL-KTPM\\KTPM_FULL\\WinApp\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "WinApp\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\KTPM_FULL\\WinApp\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\duong\\Downloads\\BTL-KTPM\\KTPM_FULL\\WinApp\\Controllers\\LoginController.cs",
               "RelativeToolTip": "WinApp\\Controllers\\LoginController.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAYwB4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -125,9 +121,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Actions.json",
-              "DocumentMoniker": "C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\KTPM_FULL\\WinApp\\App_Data\\Actions.json",
+              "DocumentMoniker": "C:\\Users\\duong\\Downloads\\BTL-KTPM\\KTPM_FULL\\WinApp\\App_Data\\Actions.json",
               "RelativeDocumentMoniker": "WinApp\\App_Data\\Actions.json",
-              "ToolTip": "C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\KTPM_FULL\\WinApp\\App_Data\\Actions.json",
+              "ToolTip": "C:\\Users\\duong\\Downloads\\BTL-KTPM\\KTPM_FULL\\WinApp\\App_Data\\Actions.json",
               "RelativeToolTip": "WinApp\\App_Data\\Actions.json",
               "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -137,9 +133,9 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "Config.json",
-              "DocumentMoniker": "C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\KTPM_FULL\\WinApp\\App_Data\\Config.json",
+              "DocumentMoniker": "C:\\Users\\duong\\Downloads\\BTL-KTPM\\KTPM_FULL\\WinApp\\App_Data\\Config.json",
               "RelativeDocumentMoniker": "WinApp\\App_Data\\Config.json",
-              "ToolTip": "C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\KTPM_FULL\\WinApp\\App_Data\\Config.json",
+              "ToolTip": "C:\\Users\\duong\\Downloads\\BTL-KTPM\\KTPM_FULL\\WinApp\\App_Data\\Config.json",
               "RelativeToolTip": "WinApp\\App_Data\\Config.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -149,9 +145,9 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\KTPM_FULL\\WinApp\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\duong\\Downloads\\BTL-KTPM\\KTPM_FULL\\WinApp\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "WinApp\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\KTPM_FULL\\WinApp\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\duong\\Downloads\\BTL-KTPM\\KTPM_FULL\\WinApp\\MainWindow.xaml.cs",
               "RelativeToolTip": "WinApp\\MainWindow.xaml.cs",
               "ViewState": "AgIAADUAAAAAAAAAAAAuwEIAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -161,9 +157,9 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "BaseView.cs",
-              "DocumentMoniker": "C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\KTPM_FULL\\WinApp\\Views\\BaseView.cs",
+              "DocumentMoniker": "C:\\Users\\duong\\Downloads\\BTL-KTPM\\KTPM_FULL\\WinApp\\Views\\BaseView.cs",
               "RelativeDocumentMoniker": "WinApp\\Views\\BaseView.cs",
-              "ToolTip": "C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\KTPM_FULL\\WinApp\\Views\\BaseView.cs",
+              "ToolTip": "C:\\Users\\duong\\Downloads\\BTL-KTPM\\KTPM_FULL\\WinApp\\Views\\BaseView.cs",
               "RelativeToolTip": "WinApp\\Views\\BaseView.cs",
               "ViewState": "AgIAAEIAAAAAAAAAAAAgwFUAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -173,9 +169,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "TaiKhoanController.cs",
-              "DocumentMoniker": "C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\KTPM_FULL\\WinApp\\Controllers\\TaiKhoanController.cs",
+              "DocumentMoniker": "C:\\Users\\duong\\Downloads\\BTL-KTPM\\KTPM_FULL\\WinApp\\Controllers\\TaiKhoanController.cs",
               "RelativeDocumentMoniker": "WinApp\\Controllers\\TaiKhoanController.cs",
-              "ToolTip": "C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\KTPM_FULL\\WinApp\\Controllers\\TaiKhoanController.cs",
+              "ToolTip": "C:\\Users\\duong\\Downloads\\BTL-KTPM\\KTPM_FULL\\WinApp\\Controllers\\TaiKhoanController.cs",
               "RelativeToolTip": "WinApp\\Controllers\\TaiKhoanController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -185,9 +181,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "CodeGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\KTPM_FULL\\WinApp\\Models\\Migration\\CodeGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\duong\\Downloads\\BTL-KTPM\\KTPM_FULL\\WinApp\\Models\\Migration\\CodeGenerator.cs",
               "RelativeDocumentMoniker": "WinApp\\Models\\Migration\\CodeGenerator.cs",
-              "ToolTip": "C:\\Users\\vuthi\\Documents\\Zalo Received Files\\20242\\KTPM_FULL\\WinApp\\Models\\Migration\\CodeGenerator.cs",
+              "ToolTip": "C:\\Users\\duong\\Downloads\\BTL-KTPM\\KTPM_FULL\\WinApp\\Models\\Migration\\CodeGenerator.cs",
               "RelativeToolTip": "WinApp\\Models\\Migration\\CodeGenerator.cs",
               "ViewState": "AgIAANYAAAAAAAAAAADwv+gAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
