@@ -143,7 +143,7 @@ namespace Models
         public int? ID { get; set; }
         public int? VungChanNuoiID { get; set; }
         public int? SoHo { get; set; }
-        public bool KQ { get; set; }
+        public bool KetQua { get; set; }
         public DateTime? NgayThongKe { get; set; }
     }
 

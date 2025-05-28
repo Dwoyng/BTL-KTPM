@@ -9,5 +9,6 @@ namespace WinApp.Controllers
 {
     internal class DieuKienChanNuoiController : DataController<DieuKienChanNuoi>
     {
+
     }
 }

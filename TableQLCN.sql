@@ -284,16 +284,16 @@ CREATE TABLE HoChanNuoi
 ID int primary key identity
 ,VungChanNuoiID int foreign key references VungChanNuoi(ID)
 ,SoHo int 
-,KetQua nvarchar(50)
+,KetQua bit
 ,NgayThongKe date
 
 )
 insert into HoChanNuoi (VungChanNuoiID, SoHo, KetQua, NgayThongKe) values
-(1, 50, N'Đạt tiêu chuẩn', '2025-01-15'),
-(2, 30, N'Đạt tiêu chuẩn', '2025-02-10'),
-(3, 40, N'Cần cải thiện', '2025-03-05'),
-(4, 25, N'Đạt tiêu chuẩn', '2025-03-20'),
-(5, 35, N'Đạt tiêu chuẩn', '2025-04-01');
+(1, 50, 0, '2025-01-15'),
+(2, 30, 1, '2025-02-10'),
+(3, 40, 1, '2025-03-05'),
+(4, 25, 0, '2025-03-20'),
+(5, 35, 1, '2025-04-01');
 
 -- Thống kê hộ chăn nuôi theo vùng
 SELECT h.ID, v.TenVungChanNuoi, h.SoHo, h.KetQua, h.NgayThongKe

@@ -8,7 +8,7 @@ namespace Models
 {
     partial class HoChanNuoi
     {
-        public string KiemDinh => KQ ? "Đạt chuẩn" : "Chưa đạt chuẩn";
+        public string KiemDinh => KetQua ? "Đạt chuẩn" : "Chưa đạt chuẩn";
         public string VungChanNuoi
         {
             get

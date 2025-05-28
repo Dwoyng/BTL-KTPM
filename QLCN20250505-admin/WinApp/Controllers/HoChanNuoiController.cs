@@ -11,10 +11,20 @@ namespace WinApp.Controllers
     {
         public object ThongKe()
         {
-            object data = Provider.Select<ThongKeHoChanNuoi>();
-            // Xử lý dữ liệu thống kê
+            // Lấy toàn bộ dữ liệu hộ chăn nuôi từ Provider
+            var all = Provider.Select<HoChanNuoi>();
 
-            return View(data);
+            // Thống kê số lượng từng loại kiểm định dựa trên property KiemDinh trong HoChanNuoi
+            var thongKe = all
+                .GroupBy(h => h.KiemDinh)
+                .Select(g => new ThongKeHoChanNuoi
+                {
+                    KiemDinh = g.Key,
+                    SL = g.Count()
+                })
+                .ToList();
+
+            return View(thongKe);
         }
         
     }
