@@ -18,12 +18,36 @@ namespace WinApp.Views.TaiKhoan
         {
             base.RenderCore(context);
             context.Title = "Danh sách người dùng";
-            context.TableColumns = new TC[] {
+            context.TableColumns = new object[] {
                 new TC { Name = "Ten", Caption = "Họ tên", Width = 250 },
                 new TC { Name = "SDT", Caption = "Số điện thoại", Width = 120 },
                 new TC { Name = "Email", Caption = "Email", Width = 120 },
                 new TC { Name = "TenDangNhap", Caption = "Tên đăng nhập", Width = 120 },
                 new TC { Name = "Quyen", Caption = "Quyền truy cập", Width = 150 },
+            };
+        }
+    }
+
+    class LichSu : BaseView<DataListViewLayout>
+    {
+        protected override void RenderCore(ViewContext context)
+        {
+            context.Title = "Lịch sử đăng nhập";
+            context.TableColumns = new object[] {
+                new TC { Name = "ID", Caption = "STT", Width = 60 },
+                new TC { Name = "NguoiDungID", Caption = "Mã người dùng", Width = 120 },
+                new TC { Name = "ThoiGianTruyCap", Caption = "Thời gian truy cập", Width = 180 },
+                new TC { Name = "MoTaHanhDong", Caption = "Hành động", Width = 250 }
+            };
+
+            context.Model = System.Provider.Select<Models.LichSuTruyCap>();
+
+            context.Search = (item, search) =>
+            {
+                var model = item as Models.LichSuTruyCap;
+                return model.NguoiDungID.ToString().Contains(search) ||
+                       model.ThoiGianTruyCap.ToString().Contains(search) ||
+                       model.MoTaHanhDong.ToLower().Contains(search);
             };
         }
     }

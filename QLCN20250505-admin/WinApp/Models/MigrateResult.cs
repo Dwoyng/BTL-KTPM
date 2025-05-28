@@ -169,7 +169,7 @@ namespace Models
     public partial class LichSuTruyCap
     {
         public int? ID { get; set; }
-        public string ThoiGianTruyCap { get; set; }
+        public DateTime ThoiGianTruyCap { get; set; }
         public string MoTaHanhDong { get; set; }
         public int? NguoiDungID { get; set; }
     }

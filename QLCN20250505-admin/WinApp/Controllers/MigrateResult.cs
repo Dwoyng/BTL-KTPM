@@ -8,8 +8,6 @@ namespace WinApp.Controllers
 {
     partial class HanhChinhController : DataController<Models.ViewDonVi> { }
 
-    partial class TaiKhoanController : DataController<Models.HoSo> 
-    { 
-    
-    }
+    partial class TaiKhoanController : DataController<Models.HoSo> { }
+
 }

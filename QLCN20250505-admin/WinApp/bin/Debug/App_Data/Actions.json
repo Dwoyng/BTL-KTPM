@@ -8,7 +8,7 @@
     "migrate/s/controller": "Controllers",
     "migrate/sql": "SQL",
     "migrate/s/proc": "Procedures",
-    "taikhoan": "Quản lý người dùng",
+    "taikhoan/index": "Quản lý người dùng",
     "taikhoan/lichsu": "Lịch sử đăng nhập",
     //"hanhchinh": "Quản lý hành chính",
     //"hanhchinh/huyen": "Đơn vị cấp huyện",
@@ -84,7 +84,7 @@
         "Childs": [
           {
             "Text": "Người dùng",
-            "Refs": [ "taikhoan", "taikhoan/lichsu" ]
+            "Refs": [ "taikhoan/index", "taikhoan/lichsu" ]
           },
           {
             "Text": "Đơn Vị Hành Chính",

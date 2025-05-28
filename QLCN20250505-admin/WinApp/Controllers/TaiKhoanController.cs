@@ -7,8 +7,15 @@ using System.Threading.Tasks;
 
 namespace WinApp.Controllers
 {
-    partial class TaiKhoanController
+    partial class TaiKhoanController : DataController<HoSo>
     {
+        public object LichSu()
+        {
+            // Lấy danh sách lịch sử đăng nhập
+            var lichSu = Provider.GetTable<LichSuTruyCap>();
+                
+            return View(lichSu);
+        }
         //protected override HoSo CreateEntity()
         //{
         //    return new HoSo { QuyenId = 3 };
