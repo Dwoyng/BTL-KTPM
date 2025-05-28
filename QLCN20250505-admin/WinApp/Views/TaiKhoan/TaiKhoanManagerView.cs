@@ -34,7 +34,6 @@ namespace WinApp.Views.TaiKhoan
         {
             context.Title = "Lịch sử đăng nhập";
             context.TableColumns = new object[] {
-                new TC { Name = "ID", Caption = "STT", Width = 60 },
                 new TC { Name = "NguoiDungID", Caption = "Mã người dùng", Width = 120 },
                 new TC { Name = "ThoiGianTruyCap", Caption = "Thời gian truy cập", Width = 180 },
                 new TC { Name = "MoTaHanhDong", Caption = "Hành động", Width = 250 }

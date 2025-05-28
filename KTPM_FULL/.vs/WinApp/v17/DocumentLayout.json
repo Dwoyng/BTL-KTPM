@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\duong\\Downloads\\BTL-KTPM\\KTPM_FULL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|c:\\users\\duong\\downloads\\btl-ktpm\\ktpm_full\\winapp\\models\\migration\\provider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\models\\migration\\provider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|c:\\users\\duong\\downloads\\btl-ktpm\\ktpm_full\\winapp\\views\\taikhoan\\taikhoanmanagerview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\views\\taikhoan\\taikhoanmanagerview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\Users\\duong\\Downloads\\BTL-KTPM\\KTPM_FULL\\winapp\\views\\hanhchinh\\hanhchinhmanagerview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\views\\hanhchinh\\hanhchinhmanagerview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|c:\\users\\duong\\downloads\\btl-ktpm\\ktpm_full\\winapp\\models\\migration\\provider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\models\\migration\\provider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\Users\\duong\\Downloads\\BTL-KTPM\\KTPM_FULL\\winapp\\models\\donvi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,8 +58,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TaiKhoanManagerView.cs",
+              "DocumentMoniker": "C:\\Users\\duong\\Downloads\\BTL-KTPM\\KTPM_FULL\\WinApp\\Views\\TaiKhoan\\TaiKhoanManagerView.cs",
+              "RelativeDocumentMoniker": "WinApp\\Views\\TaiKhoan\\TaiKhoanManagerView.cs",
+              "ToolTip": "C:\\Users\\duong\\Downloads\\BTL-KTPM\\KTPM_FULL\\WinApp\\Views\\TaiKhoan\\TaiKhoanManagerView.cs",
+              "RelativeToolTip": "WinApp\\Views\\TaiKhoan\\TaiKhoanManagerView.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T15:36:51.325Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -64,13 +81,14 @@
               "RelativeDocumentMoniker": "WinApp\\Views\\HanhChinh\\HanhChinhManagerView.cs",
               "ToolTip": "C:\\Users\\duong\\Downloads\\BTL-KTPM\\KTPM_FULL\\WinApp\\Views\\HanhChinh\\HanhChinhManagerView.cs",
               "RelativeToolTip": "WinApp\\Views\\HanhChinh\\HanhChinhManagerView.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAhwA4AAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAhwA4AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T08:26:20.759Z"
+              "WhenOpened": "2025-05-16T08:26:20.759Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "DonVi.cs",
               "DocumentMoniker": "C:\\Users\\duong\\Downloads\\BTL-KTPM\\KTPM_FULL\\WinApp\\Models\\DonVi.cs",
               "RelativeDocumentMoniker": "WinApp\\Models\\DonVi.cs",
@@ -82,20 +100,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Provider.cs",
               "DocumentMoniker": "C:\\Users\\duong\\Downloads\\BTL-KTPM\\KTPM_FULL\\WinApp\\Models\\Migration\\Provider.cs",
               "RelativeDocumentMoniker": "WinApp\\Models\\Migration\\Provider.cs",
               "ToolTip": "C:\\Users\\duong\\Downloads\\BTL-KTPM\\KTPM_FULL\\WinApp\\Models\\Migration\\Provider.cs",
               "RelativeToolTip": "WinApp\\Models\\Migration\\Provider.cs",
-              "ViewState": "AgIAANwBAAAAAAAAAAAiwOUBAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAL8BAAAAAAAAAAA4wOUBAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-05T07:48:02.313Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\duong\\Downloads\\BTL-KTPM\\KTPM_FULL\\WinApp\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "WinApp\\Controllers\\HomeController.cs",
@@ -107,7 +125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "LoginController.cs",
               "DocumentMoniker": "C:\\Users\\duong\\Downloads\\BTL-KTPM\\KTPM_FULL\\WinApp\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "WinApp\\Controllers\\LoginController.cs",
@@ -119,7 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Actions.json",
               "DocumentMoniker": "C:\\Users\\duong\\Downloads\\BTL-KTPM\\KTPM_FULL\\WinApp\\App_Data\\Actions.json",
               "RelativeDocumentMoniker": "WinApp\\App_Data\\Actions.json",
@@ -131,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Config.json",
               "DocumentMoniker": "C:\\Users\\duong\\Downloads\\BTL-KTPM\\KTPM_FULL\\WinApp\\App_Data\\Config.json",
               "RelativeDocumentMoniker": "WinApp\\App_Data\\Config.json",
@@ -143,7 +161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\duong\\Downloads\\BTL-KTPM\\KTPM_FULL\\WinApp\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "WinApp\\MainWindow.xaml.cs",
@@ -155,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "BaseView.cs",
               "DocumentMoniker": "C:\\Users\\duong\\Downloads\\BTL-KTPM\\KTPM_FULL\\WinApp\\Views\\BaseView.cs",
               "RelativeDocumentMoniker": "WinApp\\Views\\BaseView.cs",
@@ -167,7 +185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "TaiKhoanController.cs",
               "DocumentMoniker": "C:\\Users\\duong\\Downloads\\BTL-KTPM\\KTPM_FULL\\WinApp\\Controllers\\TaiKhoanController.cs",
               "RelativeDocumentMoniker": "WinApp\\Controllers\\TaiKhoanController.cs",
@@ -179,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "CodeGenerator.cs",
               "DocumentMoniker": "C:\\Users\\duong\\Downloads\\BTL-KTPM\\KTPM_FULL\\WinApp\\Models\\Migration\\CodeGenerator.cs",
               "RelativeDocumentMoniker": "WinApp\\Models\\Migration\\CodeGenerator.cs",
