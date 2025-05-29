@@ -31,6 +31,7 @@ namespace WinApp.Views.CoSo
             };
         }
     }
+
     class GietMo : BaseView<DataListViewLayout>
     {
         protected override void RenderCore(ViewContext context)
