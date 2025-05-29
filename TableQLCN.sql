@@ -368,7 +368,10 @@ insert into LoaiCoSo (TenLoaiCoSo) values
 (N'Trang trại chăn nuôi'),
 (N'Cơ sở giết mổ'),
 (N'Nhà máy chế biến thức ăn chăn nuôi'),
-(N'Cơ sở xử lý chất thải');
+(N'Cơ sở xử lý chất thải'),
+(N'Chi cục thú y'),
+(N'Đại lý bán thuốc'),
+(N'Khu tạm giữ')
 
 
 CREATE TABLE ToChuc_or_CaNhan
@@ -384,7 +387,10 @@ INSERT INTO ToChuc_or_CaNhan (Ten, DiaChi, Email_or_Phone) VALUES
 (N'Hộ ông Nguyễn Văn An', N'Thôn 2, Xã Thanh Trù', N'0912345678'),
 (N'Công ty CP Thức ăn chăn nuôi Minh Quang', N'xã Minh Quang, huyện Tam Đảo', N'minhquangfeed@gmail.com'),
 (N'Hộ bà Trần Thị Bích', N'Xã Sơn Lôi, huyện Bình Xuyên', N'0923456789'),
-(N'Cơ sở giết mổ Hợp Lý', N'Hợp Lý,huyện Lập Thạch', N'0934567890');
+(N'Cơ sở giết mổ Hợp Lý', N'Hợp Lý,huyện Lập Thạch', N'0934567890'),
+(N'Chi cục thú y Vĩnh Phúc', N'Đường Kim Ngọc, Vĩnh Yên', N'thuyvp@vietnam.gov.vn'),
+(N'Đại lý thuốc thú y Minh Phát', N'Thị trấn Tam Đảo', N'dailyminhphat@gmail.com'),
+(N'Khu tạm giữ gia súc Bình Xuyên', N'Huyện Bình Xuyên', N'khutamgiu.bx@gmail.com');
 
 CREATE TABLE CoSo
 (
@@ -402,7 +408,12 @@ INSERT INTO CoSo (TenCoSo, DiaChi, NgayCapGiayPhep, LoaiCoSoID, DonViHanhChinhID
 (N'Cơ sở giết mổ Hợp Lý', N'Hợp Lý, Lập Thạch', '2024-07-01', 2, 13, 5),
 (N'Nhà máy Minh Quang', N'Minh Quang, Tam Đảo', '2024-08-10', 3, 15, 3),
 (N'Trang trại Sơn Lôi', N'Sơn Lôi, Bình Xuyên', '2024-09-05', 1, 14, 4),
-(N'Cơ sở xử lý chất thải Ngọc Thanh', N'Ngọc Thanh, Phúc Yên', '2024-10-20', 4, 12, 1);
+(N'Cơ sở xử lý chất thải Ngọc Thanh', N'Ngọc Thanh, Phúc Yên', '2024-10-20', 4, 12, 1),
+(N'Chi cục thú y Vĩnh Phúc', N'Đường Kim Ngọc, Vĩnh Yên', '2024-05-29', 5, 1, 6),
+(N'Đại lý thuốc thú y Minh Phát', N'Thị trấn Tam Đảo', '2024-05-29', 6, 25, 7),
+(N'Khu tạm giữ gia súc Bình Xuyên', N'Huyện Bình Xuyên', '2024-05-29', 7, 7, 8);
+
+
 
 -- Chi tiết cơ sở với đầy đủ thông tin
 SELECT c.ID, c.TenCoSo, c.DiaChi, c.NgayCapGiayPhep,
@@ -487,10 +498,10 @@ ID int primary key identity
 ,CoSoID int foreign key references CoSo(ID)
 )
 INSERT INTO SanPhamXuLyChatThai (TenSanPham, LoaiSanPham, NgaySanXuat, NgayHetHan, CoSoID) VALUES
-(N'Phân bón hữu cơ Thanh Trù', N'Phân bón', '2025-01-10', '2026-01-10', 1),
+(N'Phân bón hữu cơ Thanh Trù', N'Phân bón', '2025-01-10', '2025-04-10', 1),
 (N'Chất xử lý nước Hợp Lý', N'Hóa chất xử lý', '2025-02-15', '2026-02-15', 2),
 (N'Phân vi sinh Minh Quang', N'Phân bón', '2025-03-01', '2026-03-01', 3),
-(N'Chất khử mùi Sơn Lôi', N'Hóa chất xử lý', '2025-03-20', '2026-03-20', 4),
+(N'Chất khử mùi Sơn Lôi', N'Hóa chất xử lý', '2024-03-20', '2025-03-15', 4),
 (N'Phân bón Ngọc Thanh', N'Phân bón', '2025-04-01', '2026-04-01', 5);
 
 CREATE TABLE GiayChungNhan 
