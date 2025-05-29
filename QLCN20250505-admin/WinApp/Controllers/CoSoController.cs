@@ -11,31 +11,47 @@ namespace WinApp.Controllers
     {
         public object MoHinhChanNuoi()
         {
-            object data = Provider.Select<MoHinhChanNuoi>();
-            // Xử lý dữ liệu thống kê
+            // Lấy tất cả cơ sở
+            var allCoSo = Provider.GetTable<CoSo>().ToList<CoSo>(null, null);
 
-            return View(data);
+            // Nhóm, đếm theo từng loại mô hình (dựa vào property MoHinh)
+            var dsMoHinh = allCoSo
+                .GroupBy(cs => cs.MoHinh)
+                .Select(g => new
+                {
+                    MoHinh = g.Key,
+                    SoLuong = g.Count()
+                })
+                .ToList();
+
+            return View(dsMoHinh);
         }
         public object GietMo()
         {
-            object data = Provider.Select<CoSoGietMo>();
-            // Xử lý dữ liệu thống kê
-
+            var data = Provider.GetTable<CoSo>().ToList<CoSo>(null, null)
+        .Where(c => c.LoaiCoSoID == 2)
+        .ToList();
             return View(data);
         }
         public object ChiCucThuY()
         {
-            object data = Provider.Select<ChiCucThuY>();
+            var data = Provider.GetTable<CoSo>().ToList<CoSo>(null, null)
+         .Where(c => c.LoaiCoSoID == 5) // điều chỉnh số ID đúng với DB của bạn
+         .ToList();
             return View(data);
         }
         public object DaiLyBanThuoc()
         {
-            object data = Provider.Select<DaiLyBanThuoc>();
+            var data = Provider.GetTable<CoSo>().ToList<CoSo>(null, null)
+        .Where(c => c.LoaiCoSoID == 6) // điều chỉnh số ID đúng với DB của bạn
+        .ToList();
             return View(data);
         }
         public object KhuTamGiu()
         {
-            object data = Provider.Select<KhuTamGiu>();
+            var data = Provider.GetTable<CoSo>().ToList<CoSo>(null, null)
+         .Where(c => c.LoaiCoSoID == 7) // điều chỉnh số ID đúng với DB của bạn
+         .ToList();
             return View(data);
         }
     }

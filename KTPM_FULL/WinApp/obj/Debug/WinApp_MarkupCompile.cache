@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\duong\Downloads\BTL-KTPM\KTPM_FULL\WinApp\obj\Debug\
+C:\BTL-KTPM\KTPM_FULL\WinApp\obj\Debug\
 WinApp
 none
 false
 DEBUG;TRACE
-C:\Users\duong\Downloads\BTL-KTPM\KTPM_FULL\WinApp\App.xaml
+C:\BTL-KTPM\KTPM_FULL\WinApp\App.xaml
 8851687289
 2-737652470
 691913589955
-151359646779
+152080572697
 MainWindow.xaml;Views\HanhChinh\DonViSelector.xaml;Views\Migrate\MigrateLayout.xaml;Views\_layouts\PageHeader.xaml;Views\_layouts\DataListViewLayout.xaml;Views\Migrate\CodeViewer.xaml;Views\_layouts\MainUserLayout.xaml;Views\_layouts\FormViewLayout.xaml;
 
 False

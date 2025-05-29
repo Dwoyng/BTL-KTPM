@@ -9,13 +9,10 @@ namespace WinApp.Controllers
 {
     internal class DieuKienChanNuoiController : DataController<DieuKienChanNuoi>
     {
-    
-   
-    public object MoHinhChanNuoi()
-        {
-            var dsMoHinh = Provider.GetTable<MoHinhChanNuoi>()
-                .ToList<MoHinhChanNuoi>(null, null);
-            return View(dsMoHinh);
-        }
+
+
+        
+        
     }
 }
+

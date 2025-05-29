@@ -8,7 +8,7 @@ namespace Models
 {
     partial class CoSo
     {
-        public string MoHinh => Loai ? "Mô hình chăn nuôi" : "Không phải mô hình chăn nuôi";
+        public string MoHinh => (LoaiCoSoID == 1) ? "Mô hình chăn nuôi" : "Không phải mô hình chăn nuôi";
         public string CoSoGietMo;
         public string ChiCucThuY;
         public string DaiLyBanThuoc;

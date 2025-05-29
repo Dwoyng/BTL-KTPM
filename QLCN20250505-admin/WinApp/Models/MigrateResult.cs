@@ -31,7 +31,7 @@ namespace Models
         public int? LoaiCoSoID { get; set; }
         public int? DonViHanhChinhID { get; set; }
         public int? ToChuc_or_CaNhanID { get; set; }
-        public bool Loai  { get; set; }
+        //public bool Loai { get; set; }
     }
     public partial class MoHinhChanNuoi
     {

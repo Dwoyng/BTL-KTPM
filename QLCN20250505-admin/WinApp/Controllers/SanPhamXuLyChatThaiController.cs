@@ -11,10 +11,15 @@ namespace WinApp.Controllers
     {
         public object SanPhamConHan()
         {
-            object data = Provider.Select<SanPhamConHan>();
-            // Xử lý dữ liệu thống kê
+            // Lấy danh sách tất cả sản phẩm xử lý chất thải
+            var allSanPham = Provider.GetTable<SanPhamXuLyChatThai>().ToList<SanPhamXuLyChatThai>(null, null);
 
-            return View(data);
+            // Lọc ra các sản phẩm còn hạn sử dụng
+            var conHan = allSanPham
+                .Where(sp => sp.NgayHetHan.HasValue && sp.NgayHetHan.Value > DateTime.Now)
+                .ToList();
+
+            return View(conHan);
         }
     }
 }
