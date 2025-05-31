@@ -16,6 +16,13 @@ namespace WinApp.Views.GiayChungNhan
                 new TableColumn { Name = "NgayCap", Caption = "Ngày cấp", Width = 200, },
                 new TableColumn { Name = "NgayHetHan", Caption = "Ngày hết hạn", Width = 200, },
             };
+            context.Search = (item, search) =>
+            {
+                var model = item as GiayChungNhan;
+                return model.ToChuc_or_CaNhan != null && model.Ten.ToLower().Contains(search.ToLower()) ||
+                       model.Ten != null && model.Ten.ToLower().Contains(search.ToLower()) ||
+                       model.ToChucChungNhan != null && model.Ten.ToLower().Contains(search.ToLower());
+            };
         }
     }
     class Add : EditView

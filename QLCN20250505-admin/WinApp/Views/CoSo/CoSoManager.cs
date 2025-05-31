@@ -17,6 +17,13 @@ namespace WinApp.Views.CoSo
                 new TableColumn { Name = "DiaChi", Caption = "Địa chỉ", Width = 200, },
                 new TableColumn { Name = "NgayCapGiayPhep", Caption = "Ngày cấp giấy phép", Width = 150, },
             };
+            context.Search = (item, search) =>
+            {
+                var model = item as CoSo;
+                return model.TenCoSo != null && model.TenCoSo.ToLower().Contains(search.ToLower()) ||
+                        model.LoaiCoSo != null && model.LoaiCoSo.ToString().Contains(search.ToLower()) ||
+                        model.ToChuc_or_CaNhan != null && model.ToChuc_or_CaNhan.ToString().Contains(search.ToLower());
+            };
         }
     }
 
@@ -29,6 +36,12 @@ namespace WinApp.Views.CoSo
                 new TableColumn { Name = "MoHinh", Caption = "Loại Mô Hình", Width = 250, },
                 new TableColumn { Name = "SoLuong", Caption = "Số lượng", Width = 100, },
             };
+
+            //context.Search = (item, search) =>
+            //{
+            //    var model = item as MoHinhChanNuoi;
+            //    return model.MoHinh != null && model.MoHinh.ToLower().Contains(search.ToLower());
+            //};
         }
     }
 
@@ -43,6 +56,12 @@ namespace WinApp.Views.CoSo
                 new TableColumn { Name = "DiaChi", Caption = "Địa chỉ", Width = 200, },
                 new TableColumn { Name = "NgayCapGiayPhep", Caption = "Ngày cấp giấy phép", Width = 200, },
             };
+            context.Search = (item, search) =>
+            {
+                var model = item as CoSo;
+                return model.TenCoSo != null && model.TenCoSo.ToLower().Contains(search.ToLower()) ||
+                        model.DiaChi != null && model.DiaChi.ToLower().Contains(search.ToLower());
+            };
         }
     }
     class ChiCucThuY : BaseView<DataListViewLayout>
@@ -55,6 +74,12 @@ namespace WinApp.Views.CoSo
                 new TableColumn { Name = "TenCoSo", Caption = "Tên cơ sở", Width = 200, },
                 new TableColumn { Name = "DiaChi", Caption = "Địa chỉ", Width = 200, },
                 new TableColumn { Name = "NgayCapGiayPhep", Caption = "Ngày cấp giấy phép", Width = 200, },
+            };
+            context.Search = (item, search) =>
+            {
+                var model = item as CoSo;
+                return model.TenCoSo != null && model.TenCoSo.ToLower().Contains(search.ToLower()) ||
+                        model.DiaChi != null && model.DiaChi.ToLower().Contains(search.ToLower());
             };
         }
     }
@@ -69,6 +94,12 @@ namespace WinApp.Views.CoSo
                 new TableColumn { Name = "DiaChi", Caption = "Địa chỉ", Width = 200, },
                 new TableColumn { Name = "NgayCapGiayPhep", Caption = "Ngày cấp giấy phép", Width = 200, },
             };
+            context.Search = (item, search) =>
+            {
+                var model = item as CoSo;
+                return model.TenCoSo != null && model.TenCoSo.ToLower().Contains(search.ToLower()) ||
+                        model.DiaChi != null && model.DiaChi.ToLower().Contains(search.ToLower());
+            };
         }
     }
     class KhuTamGiu : BaseView<DataListViewLayout>
@@ -81,6 +112,12 @@ namespace WinApp.Views.CoSo
                 new TableColumn { Name = "TenCoSo", Caption = "Tên cơ sở", Width = 200, },
                 new TableColumn { Name = "DiaChi", Caption = "Địa chỉ", Width = 200, },
                 new TableColumn { Name = "NgayCapGiayPhep", Caption = "Ngày cấp giấy phép", Width = 200, },
+            };
+            context.Search = (item, search) =>
+            {
+                var model = item as CoSo;
+                return model.TenCoSo != null && model.TenCoSo.ToLower().Contains(search.ToLower()) ||
+                        model.DiaChi != null && model.DiaChi.ToLower().Contains(search.ToLower());
             };
         }
     }

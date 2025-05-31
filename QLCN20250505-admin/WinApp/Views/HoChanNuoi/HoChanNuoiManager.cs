@@ -32,6 +32,11 @@ namespace WinApp.Views.HoChanNuoi
                 new TableColumn { Name = "KiemDinh", Caption = "Kiểm Định ", Width = 200, },
                 new TableColumn { Name = "SL", Caption = "Số lượng", Width = 100, },
             };
+            context.Search = (item, search) =>
+            {
+                var model = item as ThongKeHoChanNuoi;
+                return model.KiemDinh != null && model.KiemDinh.ToLower().Contains(search.ToLower());
+            };
         }
     }
     class Add : EditView

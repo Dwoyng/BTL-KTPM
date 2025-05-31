@@ -15,6 +15,12 @@ namespace WinApp.Views.SanPhamXuLyChatThai
                 new TableColumn { Name = "NgaySanXuat", Caption = "Ngày Sản Xuất", Width = 200, },
                 new TableColumn { Name = "NgayHetHan", Caption = "Ngày Hết Hạn", Width = 200, },
             };
+            context.Search = (item, search) =>
+            {
+                var model = item as SanPhamXuLyChatThai;
+                return model.TenSanPham != null && model.TenSanPham.ToLower().Contains(search.ToLower()) ||
+                       model.LoaiSanPham != null && model.LoaiSanPham.ToLower().Contains(search.ToLower());
+            };
         }
     }
     class SanPhamConHan : BaseView<DataListViewLayout>
@@ -27,6 +33,12 @@ namespace WinApp.Views.SanPhamXuLyChatThai
                 new TableColumn { Name = "TenSanPham", Caption = "Tên Sản Phẩm", Width = 200, },
                 new TableColumn { Name = "LoaiSanPham", Caption = "Loại Sản Phẩm", Width = 200, },
                 new TableColumn { Name = "NgayHetHan", Caption = "Ngày Hết Hạn", Width = 200, },
+            };
+            context.Search = (item, search) =>
+            {
+                var model = item as SanPhamXuLyChatThai;
+                return model.TenSanPham != null && model.TenSanPham.ToLower().Contains(search.ToLower()) ||
+                       model.LoaiSanPham != null && model.LoaiSanPham.ToLower().Contains(search.ToLower());
             };
         }
     }

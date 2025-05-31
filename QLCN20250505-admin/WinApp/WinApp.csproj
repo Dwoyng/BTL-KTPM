@@ -84,6 +84,7 @@
     <Compile Include="Controllers\VungChanNuoiController.cs" />
     <Compile Include="Models\%28Document%29.cs" />
     <Compile Include="Models\Account.cs" />
+    <Compile Include="Models\DieuKienChanNuoi.cs" />
     <Compile Include="Models\DonViHanhChinh.cs" />
     <Compile Include="Models\GiayChungNhan.cs" />
     <Compile Include="Models\HoChanNuoi.cs" />

@@ -16,7 +16,7 @@ namespace WinApp.Views.DieuKienChanNuoi
             context.Search = (item, search) =>
             {
                 var model = item as DieuKienChanNuoi;
-                return model.HoChanNuoiID != null && model.HoChanNuoiID.ToString().Contains(search.ToLower()) ||
+                return model.TenVungChanNuoi != null && model.TenVungChanNuoi.ToLower().Contains(search.ToLower()) ||
                        model.MoTa != null && model.MoTa.ToLower().Contains(search.ToLower());
             };
         }

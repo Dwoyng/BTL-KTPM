@@ -14,6 +14,13 @@ namespace WinApp.Views.ToChucCaNhan
                 new TableColumn { Name = "DiaChi", Caption = "Địa chỉ", Width = 200, },
                 new TableColumn { Name = "Email_or_Phone", Caption = "Email/ SDT", Width = 200, },
             };
+            context.Search = (item, search) =>
+            {
+                var model = item as ToChuc_or_CaNhan;
+                return model.Ten != null && model.Ten.ToLower().Contains(search.ToLower()) ||
+                       model.DiaChi != null && model.DiaChi.ToLower().Contains(search.ToLower()) ||
+                       model.Email_or_Phone != null && model.Email_or_Phone.ToLower().Contains(search.ToLower());
+            };
         }
     }
     class Add : EditView
