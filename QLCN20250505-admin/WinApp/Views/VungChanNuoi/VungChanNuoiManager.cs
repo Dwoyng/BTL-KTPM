@@ -14,6 +14,12 @@ namespace WinApp.Views.VungChanNuoi
                 new TableColumn { Name = "DonViHanhChinh", Caption = "Trực thuộc", Width = 200, },
                 new TableColumn { Name = "MoTa", Caption = "Mô tả", Width = 200, },
             };
+            // Thêm logic tìm kiếm theo Tên vùng chăn nuôi
+            context.Search = (item, search) =>
+            {
+                var model = item as VungChanNuoi;
+                return model.TenVungChanNuoi != null && model.TenVungChanNuoi.ToLower().Contains(search.ToLower());
+            };
         }
     }
     class Add : EditView

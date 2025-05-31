@@ -25,6 +25,12 @@ namespace WinApp.Views.TaiKhoan
                 new TC { Name = "TenDangNhap", Caption = "Tên đăng nhập", Width = 120 },
                 new TC { Name = "Quyen", Caption = "Quyền truy cập", Width = 150 },
             };
+            // Thêm logic tìm kiếm theo Họ tên
+            context.Search = (item, search) =>
+            {
+                var model = item as Models.HoSo;
+                return model.Ten != null && model.Ten.ToLower().Contains(search.ToLower());
+            };
         }
     }
 
@@ -44,9 +50,7 @@ namespace WinApp.Views.TaiKhoan
             context.Search = (item, search) =>
             {
                 var model = item as Models.LichSuTruyCap;
-                return model.NguoiDungID.ToString().Contains(search) ||
-                       model.ThoiGianTruyCap.ToString().Contains(search) ||
-                       model.MoTaHanhDong.ToLower().Contains(search);
+                return model.NguoiDungID.ToString().Contains(search) || model.MoTaHanhDong.ToString().Contains(search.ToLower());
             };
         }
     }

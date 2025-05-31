@@ -15,6 +15,11 @@ namespace WinApp.Views.HoChanNuoi
                 new TableColumn { Name = "KiemDinh", Caption = "Kiểm Định", Width = 100, },
                 new TableColumn { Name = "NgayThongKe", Caption = "Ngày Thống Kê", Width = 150, },
             };
+            context.Search = (item, search) =>
+            {
+                var model = item as HoChanNuoi;
+                return model.VungChanNuoi != null && model.VungChanNuoi.ToLower().Contains(search.ToLower()) || model.VungChanNuoi != null && model.SoHo.ToString().Contains(search.ToLower());
+            };
         }
     }
 

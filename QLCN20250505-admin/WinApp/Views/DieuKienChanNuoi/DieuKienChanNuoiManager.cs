@@ -13,6 +13,12 @@ namespace WinApp.Views.DieuKienChanNuoi
                 new TableColumn { Name = "MoTa", Caption = "Mô tả", Width = 300, },
                 new TableColumn { Name = "NgayCapNhat", Caption = "Ngày cập nhật", Width = 200, },
             };
+            context.Search = (item, search) =>
+            {
+                var model = item as DieuKienChanNuoi;
+                return model.HoChanNuoiID != null && model.HoChanNuoiID.ToString().Contains(search.ToLower()) ||
+                       model.MoTa != null && model.MoTa.ToLower().Contains(search.ToLower());
+            };
         }
     }
     class Add : EditView

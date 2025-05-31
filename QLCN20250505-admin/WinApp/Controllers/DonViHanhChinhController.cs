@@ -9,10 +9,10 @@ namespace WinApp.Controllers
 {
     internal class DonViHanhChinhController : DataController<DonViHanhChinh>
     {
-        
+
         public object ThongKeHuyen()
         {
-            // Lấy các ID cấp Huyện, Thành phố (trực thuộc tỉnh)
+            //Lấy các ID cấp Huyện, Thành phố(trực thuộc tỉnh)
             var capDoHuyenIds = Provider.GetTable<CapDoHanhChinh>()
                 .ToList<CapDoHanhChinh>(null, "TenCapDo IN (N'Huyện', N'Thành phố')")
                 .Select(x => x.ID)

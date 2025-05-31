@@ -14,6 +14,12 @@ namespace WinApp.Views.DonViHanhChinh
                 new TableColumn { Name = "CapDoHanhChinh", Caption = "Cấp", Width = 120, },
                 new TableColumn { Name = "TrucThuoc", Caption = "Trực Thuộc", Width = 200, },
             };
+            // Thêm logic tìm kiếm theo Tên Đơn Vị
+            context.Search = (item, search) =>
+            {
+                var model = item as DonViHanhChinh;
+                return model.TenDonVi != null && model.TenDonVi.ToLower().Contains(search.ToLower());
+            };
         }
     }
     class ThongKeHuyen : BaseView<DataListViewLayout>
@@ -25,6 +31,12 @@ namespace WinApp.Views.DonViHanhChinh
                 new TableColumn { Name = "TenDonVi", Caption = "Tên Huyện/Thành phố", Width = 200, },
                 new TableColumn { Name = "CapDoHanhChinh", Caption = "Cấp", Width = 120, },
                 new TableColumn { Name = "TrucThuoc", Caption = "Trực Thuộc", Width = 200, },
+            };
+            // Thêm logic tìm kiếm theo Tên Huyện/Thành phố
+            context.Search = (item, search) =>
+            {
+                var model = item as DonViHanhChinh;
+                return model.TenDonVi != null && model.TenDonVi.ToLower().Contains(search.ToLower());
             };
         }
     }
@@ -38,6 +50,12 @@ namespace WinApp.Views.DonViHanhChinh
                 new TableColumn { Name = "CapDoHanhChinh", Caption = "Cấp", Width = 120, },
                 new TableColumn { Name = "TrucThuoc", Caption = "Trực Thuộc", Width = 200, },
             };
+            // Thêm logic tìm kiếm theo Tên Phường/Thị trấn
+            context.Search = (item, search) =>
+            {
+                var model = item as DonViHanhChinh;
+                return model.TenDonVi != null && model.TenDonVi.ToLower().Contains(search.ToLower());
+            };
         }
     }
     class ThongKeXa : BaseView<DataListViewLayout>
@@ -49,6 +67,12 @@ namespace WinApp.Views.DonViHanhChinh
                 new TableColumn { Name = "TenDonVi", Caption = "Tên Xã", Width = 200, },
                 new TableColumn { Name = "CapDoHanhChinh", Caption = "Cấp", Width = 120, },
                 new TableColumn { Name = "TrucThuoc", Caption = "Trực Thuộc", Width = 200, },
+            };
+            // Thêm logic tìm kiếm theo Tên Xã
+            context.Search = (item, search) =>
+            {
+                var model = item as DonViHanhChinh;
+                return model.TenDonVi != null && model.TenDonVi.ToLower().Contains(search.ToLower());
             };
         }
     }
