@@ -3,8 +3,44 @@
   "WorkspaceRootPath": "C:\\BTL-KTPM\\KTPM_FULL\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|c:\\btl-ktpm\\ktpm_full\\winapp\\controllers\\migrateresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\controllers\\migrateresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\KTPM_FULL\\winapp\\controllers\\taikhoancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\controllers\\taikhoancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|c:\\btl-ktpm\\ktpm_full\\winapp\\views\\taikhoan\\taikhoanmanagerview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\views\\taikhoan\\taikhoanmanagerview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\KTPM_FULL\\winapp\\models\\donvi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\models\\donvi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|c:\\btl-ktpm\\ktpm_full\\winapp\\models\\migrateresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\models\\migrateresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|c:\\btl-ktpm\\ktpm_full\\winapp\\models\\updatecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\models\\updatecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|c:\\btl-ktpm\\ktpm_full\\winapp\\views\\home\\loading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\views\\home\\loading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|c:\\btl-ktpm\\ktpm_full\\winapp\\views\\home\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\views\\home\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|c:\\btl-ktpm\\ktpm_full\\winapp\\views\\home\\developer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\views\\home\\developer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|c:\\btl-ktpm\\ktpm_full\\winapp\\views\\home\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\views\\home\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\KTPM_FULL\\winapp\\views\\hanhchinh\\hanhchinhmanagerview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\KTPM_FULL\\winapp\\models\\migration\\provider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\models\\migration\\provider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\KTPM_FULL\\winapp\\models\\donvi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\models\\donvi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\KTPM_FULL\\winapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,10 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\KTPM_FULL\\winapp\\models\\migration\\codegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\models\\migration\\codegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\KTPM_FULL\\winapp\\controllers\\taikhoancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\controllers\\taikhoancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\KTPM_FULL\\winapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,19 +91,136 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MigrateResult.cs",
+              "DocumentMoniker": "C:\\BTL-KTPM\\KTPM_FULL\\WinApp\\Controllers\\MigrateResult.cs",
+              "RelativeDocumentMoniker": "WinApp\\Controllers\\MigrateResult.cs",
+              "ToolTip": "C:\\BTL-KTPM\\KTPM_FULL\\WinApp\\Controllers\\MigrateResult.cs",
+              "RelativeToolTip": "WinApp\\Controllers\\MigrateResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T03:57:59.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UpdateContext.cs",
+              "DocumentMoniker": "C:\\BTL-KTPM\\KTPM_FULL\\WinApp\\Models\\UpdateContext.cs",
+              "RelativeDocumentMoniker": "WinApp\\Models\\UpdateContext.cs",
+              "ToolTip": "C:\\BTL-KTPM\\KTPM_FULL\\WinApp\\Models\\UpdateContext.cs",
+              "RelativeToolTip": "WinApp\\Models\\UpdateContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T03:55:56.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MigrateResult.cs",
+              "DocumentMoniker": "C:\\BTL-KTPM\\KTPM_FULL\\WinApp\\Models\\MigrateResult.cs",
+              "RelativeDocumentMoniker": "WinApp\\Models\\MigrateResult.cs",
+              "ToolTip": "C:\\BTL-KTPM\\KTPM_FULL\\WinApp\\Models\\MigrateResult.cs",
+              "RelativeToolTip": "WinApp\\Models\\MigrateResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T03:55:52.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Loading.cs",
+              "DocumentMoniker": "C:\\BTL-KTPM\\KTPM_FULL\\WinApp\\Views\\Home\\Loading.cs",
+              "RelativeDocumentMoniker": "WinApp\\Views\\Home\\Loading.cs",
+              "ToolTip": "C:\\BTL-KTPM\\KTPM_FULL\\WinApp\\Views\\Home\\Loading.cs",
+              "RelativeToolTip": "WinApp\\Views\\Home\\Loading.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T03:55:20.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cs",
+              "DocumentMoniker": "C:\\BTL-KTPM\\KTPM_FULL\\WinApp\\Views\\Home\\Index.cs",
+              "RelativeDocumentMoniker": "WinApp\\Views\\Home\\Index.cs",
+              "ToolTip": "C:\\BTL-KTPM\\KTPM_FULL\\WinApp\\Views\\Home\\Index.cs",
+              "RelativeToolTip": "WinApp\\Views\\Home\\Index.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T03:55:18.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Developer.cs",
+              "DocumentMoniker": "C:\\BTL-KTPM\\KTPM_FULL\\WinApp\\Views\\Home\\Developer.cs",
+              "RelativeDocumentMoniker": "WinApp\\Views\\Home\\Developer.cs",
+              "ToolTip": "C:\\BTL-KTPM\\KTPM_FULL\\WinApp\\Views\\Home\\Developer.cs",
+              "RelativeToolTip": "WinApp\\Views\\Home\\Developer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T03:55:17.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "TaiKhoanManagerView.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\KTPM_FULL\\WinApp\\Views\\TaiKhoan\\TaiKhoanManagerView.cs",
               "RelativeDocumentMoniker": "WinApp\\Views\\TaiKhoan\\TaiKhoanManagerView.cs",
               "ToolTip": "C:\\BTL-KTPM\\KTPM_FULL\\WinApp\\Views\\TaiKhoan\\TaiKhoanManagerView.cs",
               "RelativeToolTip": "WinApp\\Views\\TaiKhoan\\TaiKhoanManagerView.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAABsAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T15:36:51.325Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DonVi.cs",
+              "DocumentMoniker": "C:\\BTL-KTPM\\KTPM_FULL\\WinApp\\Models\\DonVi.cs",
+              "RelativeDocumentMoniker": "WinApp\\Models\\DonVi.cs",
+              "ToolTip": "C:\\BTL-KTPM\\KTPM_FULL\\WinApp\\Models\\DonVi.cs",
+              "RelativeToolTip": "WinApp\\Models\\DonVi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T08:24:58.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "TaiKhoanController.cs",
+              "DocumentMoniker": "C:\\BTL-KTPM\\KTPM_FULL\\WinApp\\Controllers\\TaiKhoanController.cs",
+              "RelativeDocumentMoniker": "WinApp\\Controllers\\TaiKhoanController.cs",
+              "ToolTip": "C:\\BTL-KTPM\\KTPM_FULL\\WinApp\\Controllers\\TaiKhoanController.cs",
+              "RelativeToolTip": "WinApp\\Controllers\\TaiKhoanController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T06:42:35.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\BTL-KTPM\\KTPM_FULL\\WinApp\\Views\\Home\\Admin.cs",
+              "RelativeDocumentMoniker": "WinApp\\Views\\Home\\Admin.cs",
+              "ToolTip": "C:\\BTL-KTPM\\KTPM_FULL\\WinApp\\Views\\Home\\Admin.cs",
+              "RelativeToolTip": "WinApp\\Views\\Home\\Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T03:55:16.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "HanhChinhManagerView.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\KTPM_FULL\\WinApp\\Views\\HanhChinh\\HanhChinhManagerView.cs",
               "RelativeDocumentMoniker": "WinApp\\Views\\HanhChinh\\HanhChinhManagerView.cs",
@@ -87,19 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DonVi.cs",
-              "DocumentMoniker": "C:\\BTL-KTPM\\KTPM_FULL\\WinApp\\Models\\DonVi.cs",
-              "RelativeDocumentMoniker": "WinApp\\Models\\DonVi.cs",
-              "ToolTip": "C:\\BTL-KTPM\\KTPM_FULL\\WinApp\\Models\\DonVi.cs",
-              "RelativeToolTip": "WinApp\\Models\\DonVi.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T08:24:58.249Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "Provider.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\KTPM_FULL\\WinApp\\Models\\Migration\\Provider.cs",
               "RelativeDocumentMoniker": "WinApp\\Models\\Migration\\Provider.cs",
@@ -111,7 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\KTPM_FULL\\WinApp\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "WinApp\\Controllers\\HomeController.cs",
@@ -123,7 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "LoginController.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\KTPM_FULL\\WinApp\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "WinApp\\Controllers\\LoginController.cs",
@@ -135,7 +268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "Actions.json",
               "DocumentMoniker": "C:\\BTL-KTPM\\KTPM_FULL\\WinApp\\App_Data\\Actions.json",
               "RelativeDocumentMoniker": "WinApp\\App_Data\\Actions.json",
@@ -147,7 +280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 18,
               "Title": "Config.json",
               "DocumentMoniker": "C:\\BTL-KTPM\\KTPM_FULL\\WinApp\\App_Data\\Config.json",
               "RelativeDocumentMoniker": "WinApp\\App_Data\\Config.json",
@@ -159,7 +292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\KTPM_FULL\\WinApp\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "WinApp\\MainWindow.xaml.cs",
@@ -171,7 +304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "BaseView.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\KTPM_FULL\\WinApp\\Views\\BaseView.cs",
               "RelativeDocumentMoniker": "WinApp\\Views\\BaseView.cs",
@@ -183,19 +316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TaiKhoanController.cs",
-              "DocumentMoniker": "C:\\BTL-KTPM\\KTPM_FULL\\WinApp\\Controllers\\TaiKhoanController.cs",
-              "RelativeDocumentMoniker": "WinApp\\Controllers\\TaiKhoanController.cs",
-              "ToolTip": "C:\\BTL-KTPM\\KTPM_FULL\\WinApp\\Controllers\\TaiKhoanController.cs",
-              "RelativeToolTip": "WinApp\\Controllers\\TaiKhoanController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T06:42:35.136Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "CodeGenerator.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\KTPM_FULL\\WinApp\\Models\\Migration\\CodeGenerator.cs",
               "RelativeDocumentMoniker": "WinApp\\Models\\Migration\\CodeGenerator.cs",
