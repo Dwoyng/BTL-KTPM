@@ -1,6 +1,6 @@
-﻿use master
+﻿﻿use master
 go
-drop database QuanLyChanNuoi 
+drop database QuanLyChanNuoi
 go
 create database QuanLyChanNuoi
 go 
@@ -19,7 +19,6 @@ insert into HoSo values
 	(N'Lê Chí Công', '0912345678', 'cong.dz@hust.edu.vn', null),
 	(N'Vũ Thị Hải Anh', '0989708960', 'anh.vh@hust.edu.vn', null)
 go
-
 
 create table Quyen
 ( Id int primary key identity
@@ -63,189 +62,179 @@ insert into CapDoHanhChinh values
 	(N'Xã', 3),
 	(N'Thị trấn', 3),
 	(N'Thôn', 4)
--- Lấy danh sách các cấp hành chính
 SELECT ID, TenCapDo, CapDo
 FROM CapDoHanhChinh 
 ORDER BY CapDo;
---Bảng quản lý đơn vị hành chính
+
 create table DonViHanhChinh
 (
 	ID int primary key identity
 	,TenDonVi nvarchar(255) 
-	,CapDoHanhChinhID int foreign key references CapDoHanhChinh(ID)-- Liên kết cấp độ hành chính
+	,CapDoHanhChinhID int foreign key references CapDoHanhChinh(ID)
 	,TrucThuocID int foreign key references DonViHanhChinh(ID) 
 )
-
 insert into DonViHanhChinh(TenDonVi,CapDoHanhChinhID,TrucThuocID) values
-    (N'Tỉnh Vĩnh Phúc',1,null)
+    (N'Tỉnh Hải Dương',1,null)
 
 -- Các huyện/thành phố của tỉnh 
 insert into DonViHanhChinh(TenDonVi,CapDoHanhChinhID,TrucThuocID) values
- (N'Thành phố Vĩnh Yên', 2, 1),
-    ( N'Thành phố Phúc Yên', 2, 1),
-    ( N'Huyện Lập Thạch', 3, 1),
-    ( N'Huyện Tam Dương', 3, 1),
-    ( N'Huyện Tam Đảo', 3, 1),
-    ( N'Huyện Bình Xuyên', 3, 1),
-    ( N'Huyện Yên Lạc', 3, 1),
-    ( N'Huyện Vĩnh Tường', 3, 1),
-    ( N'Huyện Sông Lô', 3, 1)
+ (N'Thành phố Hải Dương', 2, 1),
+    (N'Thành phố Chí Linh', 2, 1),
+    (N'Huyện Nam Sách', 3, 1),
+    (N'Huyện Kinh Môn', 3, 1),
+    (N'Huyện Gia Lộc', 3, 1),
+    (N'Huyện Thanh Hà', 3, 1),
+    (N'Huyện Thanh Miện', 3, 1),
+    (N'Huyện Tứ Kỳ', 3, 1),
+    (N'Huyện Cẩm Giàng', 3, 1)
 
-	-- Các đơn vị hành chính cấp xã/phường thuộc thành phố Vĩnh Yên
+	-- Các đơn vị hành chính cấp xã/phường thuộc thành phố Hải Dương
 	insert into DonViHanhChinh(TenDonVi,CapDoHanhChinhID,TrucThuocID) values
-	 (N'Phường Tích Sơn', 4, 2),
-    (N'Phường Liên Bảo', 4, 2),
-    (N'Phường Hội Hợp', 4, 2),
-    (N'Phường Đống Đa', 4, 2),
-    (N'Phường Ngô Quyền', 4, 2),
-    (N'Phường Đồng Tâm', 4, 2),
-    (N'Phường Định Trung', 4, 2),
-    (N'Phường Khai Quang', 4, 2),
-    (N'Xã Thanh Trù', 5, 2);
+	 (N'Phường Bình Hàn', 4, 2),
+    (N'Phường Trần Hưng Đạo', 4, 2),
+    (N'Phường Quang Trung', 4, 2),
+    (N'Phường Nguyễn Trãi', 4, 2),
+    (N'Phường Hải Tân', 4, 2),
+    (N'Phường Thanh Bình', 4, 2),
+    (N'Phường Tân Bình', 4, 2),
+    (N'Phường Thạch Khôi', 4, 2),
+    (N'Xã Liên Hồng', 5, 2);
 
-	-- Insert các phường/xã thuộc thành phố Phúc Yên
+	-- Insert các phường/xã thuộc thành phố Chí Linh
 insert into DonViHanhChinh(TenDonVi,CapDoHanhChinhID,TrucThuocID) values
-    (N'Phường Hùng Vương', 4, 3),
-    (N'Phường Hai Bà Trưng', 4, 3),
-    (N'Phường Phúc Thắng', 4, 3),
-    (N'Phường Xuân Hoà', 4, 3),
-    (N'Phường Đồng Xuân', 4, 3),
-    (N'Xã Ngọc Thanh', 5, 3),
-    (N'Xã Cao Minh', 5, 3),
-    (N'Phường Nam Viêm', 4, 3),
-    (N'Phường Tiền Châu', 4, 3);
+    (N'Phường Sao Đỏ', 4, 3),
+    (N'Phường Cộng Hoà', 4, 3),
+    (N'Phường Văn Đức', 4, 3),
+    (N'Phường Hoàng Tân', 4, 3),
+    (N'Phường Cổ Thành', 4, 3),
+    (N'Xã Lê Lợi', 5, 3),
+    (N'Xã Hoàng Hoa Thám', 5, 3),
+    (N'Phường Chí Minh', 4, 3),
+    (N'Xã Bắc An', 5, 3);
 
-	-- Insert các xã/thị trấn thuộc huyện Lập Thạch
+	-- Insert các xã/thị trấn thuộc huyện Nam Sách
 insert into DonViHanhChinh(TenDonVi,CapDoHanhChinhID,TrucThuocID) values
-   (N'Thị trấn Lập Thạch', 6, 4),
-    (N'Xã Quang Sơn', 5, 4),
-    (N'Xã Ngọc Mỹ', 5, 4),
-    (N'Xã Hợp Lý', 5, 4),
-    (N'Xã Bắc Bình', 5, 4),
-    (N'Xã Thái Hòa', 5, 4),
-    (N'Thị trấn Hoa Sơn', 6, 4),
-    (N'Xã Liễn Sơn', 5, 4),
-    (N'Xã Xuân Hòa', 5, 4),
-    (N'Xã Vân Trục', 5, 4),
-    (N'Xã Liên Hòa', 5, 4),
-    (N'Xã Tử Du', 5, 4),
-    (N'Xã Bàn Giản', 5, 4),
-    (N'Xã Xuân Lôi', 5, 4),
-    (N'Xã Đồng Ích', 5, 4),
-    (N'Xã Tiên Lữ', 5, 4),
-    (N'Xã Văn Quán', 5, 4),
-    (N'Xã Tây Sơn', 5, 4),
-    (N'Xã Sơn Đông', 5, 4);
+   (N'Thị trấn Nam Sách', 6, 4),
+    (N'Xã An Bình', 5, 4),
+    (N'Xã Hiệp Cát', 5, 4),
+    (N'Xã Nam Hồng', 5, 4),
+    (N'Xã Nam Trung', 5, 4),
+    (N'Xã Thanh Quang', 5, 4),
+    (N'Thị trấn An Lạc', 6, 4),
+    (N'Xã Nam Chính', 5, 4),
+    (N'Xã Nam Chính', 5, 4),
+    (N'Xã Thái Tân', 5, 4),
+    (N'Xã Hợp Tiến', 5, 4),
+    (N'Xã Nam Tân', 5, 4),
+    (N'Xã Đồng Lạc', 5, 4),
+    (N'Xã An Sơn', 5, 4),
+    (N'Xã Quốc Tuấn', 5, 4),
+    (N'Xã Nam Trung', 5, 4),
+    (N'Xã Nam Chính', 5, 4),
+    (N'Xã An Lâm', 5, 4),
+    (N'Xã Bình Minh', 5, 4);
 
-	-- Insert các xã/thị trấn thuộc huyện Tam Dương
+	-- Insert các xã/thị trấn thuộc huyện Kinh Môn
 insert into DonViHanhChinh(TenDonVi,CapDoHanhChinhID,TrucThuocID) values
-    ( N'Thị trấn Hợp Hòa', 6, 5),
-    ( N'Xã Hoàng Hoa', 5, 5),
-    ( N'Xã Đồng Tĩnh', 5, 5),
-    ( N'Thị trấn Kim Long', 6, 5),
-    ( N'Xã Hướng Đạo', 5, 5),
-    ( N'Xã Đạo Tú', 5, 5),
-    ( N'Xã An Hòa', 5, 5),
-    ( N'Xã Thanh Vân', 5, 5),
-    ( N'Xã Duy Phiên', 5, 5),
-    ( N'Xã Hoàng Đan', 5, 5),
-    ( N'Xã Hoàng Lâu', 5, 5),
-    ( N'Xã Hội Thịnh', 5, 5)
+    (N'Thị trấn Kinh Môn', 6, 5),
+    (N'Thị trấn Minh Tân', 6, 5),
+    (N'Xã Hiệp Sơn', 5, 5),
+    (N'Xã An Sinh', 5, 5),
+    (N'Xã Quang Thành', 5, 5),
+    (N'Xã Hiệp An', 5, 5),
+    (N'Thị trấn Phạm Thái', 6, 5),
+    (N'Xã Duy Tân', 5, 5),
+    (N'Xã Thái Sơn', 5, 5),
+    (N'Xã Bạch Đằng', 5, 5);
 
-	-- Insert các xã/thị trấn thuộc huyện Tam Đảo
+	-- Insert các xã/thị trấn thuộc huyện Gia Lộc
 insert into DonViHanhChinh(TenDonVi,CapDoHanhChinhID,TrucThuocID) values
-    (N'Thị trấn Tam Đảo', 6, 6),
-    ( N'Thị trấn Hợp Châu', 6, 6),
-    ( N'Xã Đạo Trù', 5, 6),
-    ( N'Xã Yên Dương', 5, 6),
-    ( N'Xã Bồ Lý', 5, 6),
-    ( N'Thị trấn Đại Đình', 6, 6),
-    ( N'Xã Tam Quan', 5, 6),
-    (N'Xã Hồ Sơn', 5, 6),
-    ( N'Xã Minh Quang', 5, 6)
+        (N'Thị trấn Gia Lộc', 6, 6),
+    (N'Xã Đồng Quang', 5, 6),
+    (N'Xã Phạm Trấn', 5, 6),
+    (N'Xã Quang Minh', 5, 6),
+    (N'Xã Thống Nhất', 5, 6),
+    (N'Xã Hồng Hưng', 5, 6),
+    (N'Thị trấn Hải Lộc', 6, 6),
+    (N'Xã Đoàn Thượng', 5, 6),
+    (N'Xã Đức Xương', 5, 6),
+    (N'Xã Hùng Thắng', 5, 6),
+    (N'Xã Nhật Tân', 5, 6),
+    (N'Xã Phú Hưng', 5, 6),
+    (N'Xã Đồng Gia', 5, 6),
+    (N'Xã Gia Khánh', 5, 6),
+    (N'Xã Hải Hà', 5, 6);
 
-	-- Insert các xã/thị trấn thuộc huyện Bình Xuyên
+	-- Insert các xã/thị trấn thuộc huyện Thanh Hà
 insert into DonViHanhChinh(TenDonVi,CapDoHanhChinhID,TrucThuocID) values
-       (N'Thị trấn Hương Canh', 6, 7),
-    (N'Thị trấn Gia Khánh', 6, 7),
-    (N'Xã Trung Mỹ', 5, 7),
-    (N'Thị trấn Bá Hiến', 6, 7),
-    (N'Xã Thiện Kế', 5, 7),
-    (N'Xã Hương Sơn', 5, 7),
-    (N'Xã Tam Hợp', 5, 7),
-    (N'Xã Quất Lưu', 5, 7),
-    (N'Xã Sơn Lôi', 5, 7),
-    (N'Thị trấn Đạo Đức', 6, 7),
-    (N'Xã Tân Phong', 5, 7),
-    (N'Thị trấn Thanh Lãng', 6, 7),
-    (N'Xã Phú Xuân', 5, 7)
+    (N'Thị trấn Thanh Hà', 6, 7),
+    (N'Xã Hồng Lạc', 5, 7),
+    (N'Xã Thanh Khê', 5, 7),
+    (N'Xã Thanh Xá', 5, 7),
+    (N'Xã Tân Việt', 5, 7),
+    (N'Xã Thanh Sơn', 5, 7),
+    (N'Thị trấn Cẩm Vũ', 6, 7),
+    (N'Xã An Thanh', 5, 7),
+    (N'Xã Thanh Lang', 5, 7),
+    (N'Xã Trường Thành', 5, 7),
+    (N'Xã Thanh Hải', 5, 7),
+    (N'Xã Thanh Thủy', 5, 7),
+    (N'Xã Thanh Xuân', 5, 7);
 
-	-- Insert các xã/thị trấn thuộc huyện Yên Lạc
+	-- Insert các xã/thị trấn thuộc huyện Thanh Miện
 insert into DonViHanhChinh(TenDonVi,CapDoHanhChinhID,TrucThuocID) values
-        (N'Thị trấn Yên Lạc', 6, 8),
-    (N'Xã Đồng Cương', 5, 8),
-    (N'Xã Đồng Văn', 5, 8),
-    (N'Xã Bình Định', 5, 8),
-    (N'Xã Trung Nguyên', 5, 8),
-    (N'Xã Tề Lỗ', 5, 8),
-    (N'Thị trấn Tam Hồng', 6, 8),
-    (N'Xã Yên Đồng', 5, 8),
-    (N'Xã Văn Tiến', 5, 8),
-    (N'Xã Nguyệt Đức', 5, 8),
-    (N'Xã Yên Phương', 5, 8),
-    (N'Xã Trung Kiên', 5, 8),
-    (N'Xã Liên Châu', 5, 8),
-    (N'Xã Đại Tự', 5, 8),
-    (N'Xã Hồng Châu', 5, 8),
-    (N'Xã Trung Hà', 5, 8)
+     (N'Thị trấn Thanh Miện', 6, 8),
+    (N'Xã Thanh Giang', 5, 8),
+    (N'Xã Đoàn Tùng', 5, 8),
+    (N'Xã Lam Sơn', 5, 8),
+    (N'Xã Ngô Quyền', 5, 8),
+    (N'Xã Đoàn Kết', 5, 8),
+    (N'Xã Hồng Phong', 5, 8),
+    (N'Xã Thanh Tùng', 5, 8),
+    (N'Thị trấn Tứ Kỳ', 6, 8),
+    (N'Xã Hưng Thái', 5, 8),
+    (N'Xã Minh Đức', 5, 8),
+    (N'Xã Tân Hưng', 5, 8),
+    (N'Xã Thái Học', 5, 8),
+    (N'Xã Tân Trào', 5, 8),
+    (N'Xã Thanh Khê', 5, 8);
 
-	-- Insert các xã/thị trấn thuộc huyện Vĩnh Tường
+	-- Insert các xã/thị trấn thuộc huyện Tứ Kỳ
 insert into DonViHanhChinh(TenDonVi,CapDoHanhChinhID,TrucThuocID) values
-     (N'Thị trấn Vĩnh Tường', 6, 9),
-    (N'Xã Kim Xá', 5, 9),
-    (N'Xã Yên Bình', 5, 9),
-    (N'Xã Chấn Hưng', 5, 9),
-    (N'Xã Nghĩa Hưng', 5, 9),
-    (N'Xã Yên Lập', 5, 9),
-    (N'Xã Sao Đại Việt', 5, 9),
-    (N'Xã Đại Đồng', 5, 9),
-    (N'Xã Lũng Hoà', 5, 9),
-    (N'Thị trấn Thổ Tang', 6, 9),
-    (N'Xã Lương Điền', 5, 9),
-    (N'Xã Tân Phú', 5, 9),
-    (N'Xã Thượng Trưng', 5, 9),
-    (N'Xã Vũ Di', 5, 9),
-    (N'Xã Tuân Chính', 5, 9),
-    (N'Thị trấn Tứ Trưng', 6, 9),
-    (N'Xã Ngũ Kiên', 5, 9),
-    (N'Xã An Nhân', 5, 9),
-    (N'Xã Vĩnh Thịnh', 5, 9),
-    (N'Xã Vĩnh Phú', 5, 9);
+    (N'Thị trấn Tứ Kỳ', 6, 9),
+    (N'Xã Quang Phục', 5, 9),
+    (N'Xã Đại Hợp', 5, 9),
+    (N'Xã Quang Trung', 5, 9),
+    (N'Xã Dân Chủ', 5, 9),
+    (N'Xã Hà Thanh', 5, 9),
+    (N'Xã Hưng Đạo', 5, 9),
+    (N'Xã Tân Kỳ', 5, 9),
+    (N'Xã Văn Tố', 5, 9),
+    (N'Xã Quý Cao', 5, 9),
+    (N'Xã Ngọc Sơn', 5, 9),
+    (N'Xã Đại Sơn', 5, 9),
+    (N'Xã Hưng Thái', 5, 9);
 
-	-- Insert các xã/thị trấn thuộc huyện Sông Lô
+	-- Insert các xã/thị trấn thuộc huyện Cẩm Giàng
 insert into DonViHanhChinh(TenDonVi,CapDoHanhChinhID,TrucThuocID) values
-    (N'Xã Lãng Công', 5, 10),
-    (N'Xã Quang Yên', 5, 10),
-    (N'Xã Hải Lựu', 5, 10),
-    (N'Xã Đồng Quế', 5, 10),
-    (N'Xã Nhân Đạo', 5, 10),
-    (N'Xã Đôn Nhân', 5, 10),
-    (N'Xã Phương Khoan', 5, 10),
-    (N'Xã Tân Lập', 5, 10),
-    (N'Thị trấn Tam Sơn', 6, 10),
-    (N'Xã Yên Thạch', 5, 10),
-    (N'Xã Đồng Thịnh', 5, 10),
-    (N'Xã Tứ Yên', 5, 10),
-    (N'Xã Đức Bác', 5, 10),
-    (N'Xã Cao Phong', 5, 10)
+    (N'Thị trấn Lai Cách', 6, 10),
+    (N'Xã Cẩm Đông', 5, 10),
+    (N'Xã Cẩm Đoài', 5, 10),
+    (N'Xã Cẩm Phúc', 5, 10),
+    (N'Xã Cẩm Văn', 5, 10),
+    (N'Xã Cẩm Vũ', 5, 10),
+    (N'Xã Cẩm Giang', 5, 10),
+    (N'Xã Cẩm Điền', 5, 10),
+    (N'Xã Cẩm Hưng', 5, 10),
+    (N'Xã Cẩm Hoàng', 5, 10);
 
--- Danh sách đơn vị hành chính
 SELECT dv.ID, dv.TenDonVi, cd.TenCapDo, cd.CapDo,
        CASE WHEN dv.TrucThuocID IS NULL THEN N'Không' ELSE parent.TenDonVi END AS TrucThuoc
 FROM DonViHanhChinh dv
 JOIN CapDoHanhChinh cd ON dv.CapDoHanhChinhID = cd.ID
 LEFT JOIN DonViHanhChinh parent ON dv.TrucThuocID = parent.ID
 ORDER BY cd.CapDo, dv.TenDonVi;
+
 CREATE TABLE VungChanNuoi
 (
 ID int primary key identity 
@@ -256,21 +245,20 @@ ID int primary key identity
 
 -- Thêm dữ liệu vào bảng VungChanNuoi (cách chính xác nhất)
 insert into VungChanNuoi(TenVungChanNuoi, MoTa, DonViHanhChinhID) values
-    (N'Vùng chăn nuôi Thanh Trù', N'Nuôi lợn tập trung', 
-     (select ID from DonViHanhChinh where TenDonVi = N'Xã Thanh Trù')),
+    (N'Vùng chăn nuôi Bình Hàn', N'Nuôi lợn tập trung', 
+     (select ID from DonViHanhChinh where TenDonVi = N'Phường Bình Hàn')),
     
-    (N'Vùng chăn nuôi Ngọc Thanh', N'Nuôi gà thả vườn', 
-(select ID from DonViHanhChinh where TenDonVi = N'Xã Ngọc Thanh')),
+    (N'Vùng chăn nuôi Sao Đỏ', N'Nuôi gà thả vườn', 
+(select ID from DonViHanhChinh where TenDonVi = N'Phường Sao Đỏ')),
     
-    (N'Vùng chăn nuôi Hợp Lý', N'Nuôi đa dạng các loại gia súc', 
-     (select ID from DonViHanhChinh where TenDonVi = N'Xã Hợp Lý')),
+    (N'Vùng chăn nuôi Nam Sách', N'Nuôi đa dạng các loại gia súc', 
+     (select ID from DonViHanhChinh where TenDonVi = N'Thị trấn Nam Sách')),
     
-    (N'Vùng chăn nuôi Minh Quang', N'Nuôi theo hướng hữu cơ', 
-     (select ID from DonViHanhChinh where TenDonVi = N'Xã Minh Quang')),
+    (N'Vùng chăn nuôi Minh Tân', N'Nuôi theo hướng hữu cơ', 
+     (select ID from DonViHanhChinh where TenDonVi = N'Thị trấn Minh Tân')),
     
-    (N'Vùng chăn nuôi Sơn Lôi', N'Vùng an toàn dịch bệnh', 
-     (select ID from DonViHanhChinh where TenDonVi = N'Xã Sơn Lôi'));
-
+    (N'Vùng chăn nuôi Thanh Hà', N'Vùng an toàn dịch bệnh', 
+     (select ID from DonViHanhChinh where TenDonVi = N'Thị trấn Thanh Hà'));
 
 SELECT v.ID, v.TenVungChanNuoi, v.MoTa, 
        dv.TenDonVi AS 'Đơn vị hành chính',
@@ -295,7 +283,6 @@ insert into HoChanNuoi (VungChanNuoiID, SoHo, KetQua, NgayThongKe) values
 (4, 25, 1, '2025-03-20'),
 (5, 35, 1, '2025-04-01');
 
--- Thống kê hộ chăn nuôi theo vùng
 SELECT h.ID, v.TenVungChanNuoi, h.SoHo, h.KetQua, h.NgayThongKe
 FROM HoChanNuoi h
 JOIN VungChanNuoi v ON h.VungChanNuoiID = v.ID
@@ -314,7 +301,7 @@ INSERT INTO DieuKienChanNuoi (HoChanNuoiID, MoTa, NgayCapNhat) VALUES
 (3, N'Chuồng trại cũ, cần cải tạo hệ thống thoát nước', '2025-03-10'),
 (4, N'Sử dụng thức ăn hữu cơ, không hóa chất', '2025-03-25'),
 (5, N'Hệ thống xử lý chất thải đạt tiêu chuẩn', '2025-04-05');
--- Điều kiện các hộ chăn nuôi
+
 SELECT d.ID, v.TenVungChanNuoi, h.SoHo, d.MoTa, d.NgayCapNhat
 FROM DieuKienChanNuoi d
 JOIN HoChanNuoi h ON d.HoChanNuoiID = h.ID
@@ -356,7 +343,6 @@ insert into NguoiDung ( UserName , Email_or_Phone, Password ,VaiTroID ,TrangThai
     (N'Phạm Thị Lan', 'phamthil@gmail.com', 'thil', 2, N'Hoạt động' ,1), -- User
     (N'Lê Anh Mão', 'leanhm@gmail.com', 'anhm', 2, N'Hoạt động' ,1), -- User
     (N'Hoàng Thị Lan', 'hoangthin@gmail.com', 'hoangn', 2,N'Hoạt động' , 1); -- User
-	
 
 CREATE TABLE LoaiCoSo
 (
@@ -373,7 +359,6 @@ insert into LoaiCoSo (TenLoaiCoSo) values
 (N'Đại lý bán thuốc'),
 (N'Khu tạm giữ')
 
-
 CREATE TABLE ToChuc_or_CaNhan
 (
 ID int primary key identity
@@ -383,14 +368,14 @@ ID int primary key identity
 )
 
 INSERT INTO ToChuc_or_CaNhan (Ten, DiaChi, Email_or_Phone) VALUES
-(N'Công ty TNHH Chăn nuôi Vĩnh Phúc', N'123 Đường Láng, Vĩnh Yên', N'vinhphucfarm@gmail.com'),
-(N'Hộ ông Nguyễn Văn An', N'Thôn 2, Xã Thanh Trù', N'0912345678'),
-(N'Công ty CP Thức ăn chăn nuôi Minh Quang', N'xã Minh Quang, huyện Tam Đảo', N'minhquangfeed@gmail.com'),
-(N'Hộ bà Trần Thị Bích', N'Xã Sơn Lôi, huyện Bình Xuyên', N'0923456789'),
-(N'Cơ sở giết mổ Hợp Lý', N'Hợp Lý,huyện Lập Thạch', N'0934567890'),
-(N'Chi cục thú y Vĩnh Phúc', N'Đường Kim Ngọc, Vĩnh Yên', N'thuyvp@vietnam.gov.vn'),
-(N'Đại lý thuốc thú y Minh Phát', N'Thị trấn Tam Đảo', N'dailyminhphat@gmail.com'),
-(N'Khu tạm giữ gia súc Bình Xuyên', N'Huyện Bình Xuyên', N'khutamgiu.bx@gmail.com');
+(N'Công ty TNHH Chăn nuôi Hải Dương', N'123 Đường Láng, Hải Dương', N'haiduongfarm@gmail.com'),
+(N'Hộ ông Nguyễn Văn An', N'Thôn 2, Xã Liên Hồng', N'0912345678'),
+(N'Công ty CP Thức ăn chăn nuôi Minh Tân', N'xã Minh Tân, huyện Kinh Môn', N'minhtanfeed@gmail.com'),
+(N'Hộ bà Trần Thị Bích', N'Xã Thanh Hà, huyện Thanh Hà', N'0923456789'),
+(N'Cơ sở giết mổ Nam Sách', N'Nam Sách, huyện Nam Sách', N'0934567890'),
+(N'Chi cục thú y Hải Dương', N'Đường Kim Ngọc, Hải Dương', N'thuyhd@vietnam.gov.vn'),
+(N'Đại lý thuốc thú y Minh Phát', N'Thị trấn Minh Tân', N'dailyminhphat@gmail.com'),
+(N'Khu tạm giữ gia súc Kinh Môn', N'Huyện Kinh Môn', N'khutamgiu.km@gmail.com');
 
 CREATE TABLE CoSo
 (
@@ -404,18 +389,15 @@ ID int primary key identity
 )
 
 INSERT INTO CoSo (TenCoSo, DiaChi, NgayCapGiayPhep, LoaiCoSoID, DonViHanhChinhID, ToChuc_or_CaNhanID) VALUES
-(N'Trang trại Thanh Trù', N'Xã Thanh Trù, Vĩnh Yên', '2024-06-15', 1, 11, 2),
-(N'Cơ sở giết mổ Hợp Lý', N'Hợp Lý, Lập Thạch', '2024-07-01', 2, 13, 5),
-(N'Nhà máy Minh Quang', N'Minh Quang, Tam Đảo', '2024-08-10', 3, 15, 3),
-(N'Trang trại Sơn Lôi', N'Sơn Lôi, Bình Xuyên', '2024-09-05', 1, 14, 4),
-(N'Cơ sở xử lý chất thải Ngọc Thanh', N'Ngọc Thanh, Phúc Yên', '2024-10-20', 4, 12, 1),
-(N'Chi cục thú y Vĩnh Phúc', N'Đường Kim Ngọc, Vĩnh Yên', '2024-05-29', 5, 1, 6),
-(N'Đại lý thuốc thú y Minh Phát', N'Thị trấn Tam Đảo', '2024-05-29', 6, 25, 7),
-(N'Khu tạm giữ gia súc Bình Xuyên', N'Huyện Bình Xuyên', '2024-05-29', 7, 7, 8);
+(N'Trang trại Liên Hồng', N'Xã Liên Hồng, Hải Dương', '2024-06-15', 1, 11, 2),
+(N'Cơ sở giết mổ Nam Sách', N'Nam Sách, Nam Sách', '2024-07-01', 2, 13, 5),
+(N'Nhà máy Minh Tân', N'Minh Tân, Kinh Môn', '2024-08-10', 3, 15, 3),
+(N'Trang trại Thanh Hà', N'Thanh Hà, Thanh Hà', '2024-09-05', 1, 14, 4),
+(N'Cơ sở xử lý chất thải Sao Đỏ', N'Sao Đỏ, Chí Linh', '2024-10-20', 4, 12, 1),
+(N'Chi cục thú y Hải Dương', N'Đường Kim Ngọc, Hải Dương', '2024-05-29', 5, 1, 6),
+(N'Đại lý thuốc thú y Minh Phát', N'Thị trấn Minh Tân', '2024-05-29', 6, 25, 7),
+(N'Khu tạm giữ gia súc Kinh Môn', N'Huyện Kinh Môn', '2024-05-29', 7, 7, 8);
 
-
-
--- Chi tiết cơ sở với đầy đủ thông tin
 SELECT c.ID, c.TenCoSo, c.DiaChi, c.NgayCapGiayPhep,
        l.TenLoaiCoSo, d.TenDonVi AS 'Địa bàn',
        t.Ten AS 'Chủ sở hữu', t.Email_or_Phone AS 'Liên hệ',
@@ -434,12 +416,12 @@ ID int primary key identity
 ,VungChanNuoiID int foreign key references VungChanNuoi(ID)
 )
 INSERT INTO BanDoPhanBo (KinhDo, ViDo, CoSoID, VungChanNuoiID) VALUES
-(105.592, 21.308, 1, 1),
-(105.620, 21.295, NULL, 2),
-(105.580, 21.350, 2, 3),
-(105.630, 21.280, 3, 4),
-(105.600, 21.320, 4, 5);
--- Vị trí các cơ sở/vùng chăn nuôi trên bản đồ
+(106.350, 20.937, 1, 1),
+(106.400, 20.950, NULL, 2),
+(106.380, 20.910, 2, 3),
+(106.420, 20.980, 3, 4),
+(106.390, 20.945, 4, 5);
+
 SELECT b.ID, 
        CASE 
            WHEN b.CoSoID IS NOT NULL THEN c.TenCoSo 
@@ -454,6 +436,7 @@ FROM BanDoPhanBo b
 LEFT JOIN CoSo c ON b.CoSoID = c.ID
 LEFT JOIN LoaiCoSo l ON c.LoaiCoSoID = l.ID
 LEFT JOIN VungChanNuoi v ON b.VungChanNuoiID = v.ID;
+
 CREATE TABLE LichSuTruyCap 
 (
 ID int primary key identity
@@ -469,7 +452,6 @@ insert into LichSuTruyCap (ThoiGianTruyCap, MoTaHanhDong, NguoiDungID) values
 ('2025-04-22 14:20', N'Thêm thông tin hộ chăn nuôi', 4),
 ('2025-04-23 07:45', N'Đăng xuất hệ thống', 1);
 
--- Lịch sử hoạt động của người dùng
 SELECT l.ID, n.UserName,  FORMAT(ThoiGianTruyCap, 'yyyy-MM-dd HH:mm:ss') AS ThoiGianTruyCap, l.MoTaHanhDong
 FROM LichSuTruyCap l
 JOIN NguoiDung n ON l.NguoiDungID = n.ID
@@ -484,9 +466,8 @@ ID int primary key identity
 )
 INSERT INTO ToChucChungNhan (Ten, DiaChi, Email_or_Phone) VALUES
 (N'Cục Chăn nuôi Việt Nam', N'Hà Nội', N'channuoi@vn.gov.vn'),
-(N'Trung tâm Kiểm định Vĩnh Phúc', N'Vĩnh Yên', N'kiemdinhvp@gmail.com'),
+(N'Trung tâm Kiểm định Hải Dương', N'Hải Dương', N'kiemdinhhd@gmail.com'),
 (N'Công ty Chứng nhận VietCert', N'TP.HCM', N'vietcert@gmail.com');
-
 
 CREATE TABLE SanPhamXuLyChatThai
 (
@@ -498,11 +479,11 @@ ID int primary key identity
 ,CoSoID int foreign key references CoSo(ID)
 )
 INSERT INTO SanPhamXuLyChatThai (TenSanPham, LoaiSanPham, NgaySanXuat, NgayHetHan, CoSoID) VALUES
-(N'Phân bón hữu cơ Thanh Trù', N'Phân bón', '2025-01-10', '2025-04-10', 1),
-(N'Chất xử lý nước Hợp Lý', N'Hóa chất xử lý', '2025-02-15', '2026-02-15', 2),
-(N'Phân vi sinh Minh Quang', N'Phân bón', '2025-03-01', '2026-03-01', 3),
-(N'Chất khử mùi Sơn Lôi', N'Hóa chất xử lý', '2024-03-20', '2025-03-15', 4),
-(N'Phân bón Ngọc Thanh', N'Phân bón', '2025-04-01', '2026-04-01', 5);
+(N'Phân bón hữu cơ Liên Hồng', N'Phân bón', '2025-01-10', '2025-04-10', 1),
+(N'Chất xử lý nước Nam Sách', N'Hóa chất xử lý', '2025-02-15', '2026-02-15', 2),
+(N'Phân vi sinh Minh Tân', N'Phân bón', '2025-03-01', '2026-03-01', 3),
+(N'Chất khử mùi Thanh Hà', N'Hóa chất xử lý', '2024-03-20', '2025-03-15', 4),
+(N'Phân bón Sao Đỏ', N'Phân bón', '2025-04-01', '2026-04-01', 5);
 
 CREATE TABLE GiayChungNhan 
 (
@@ -521,20 +502,18 @@ INSERT INTO GiayChungNhan (ID, ToChucChungNhanID, Ten, ToChuc_or_CaNhanID, NgayC
 (4, 2, N'Chứng nhận chăn nuôi sạch', 4, '2024-09-10', '2025-09-10'),
 (5, 1, N'Chứng nhận xử lý chất thải', 1, '2024-10-25', '2025-10-25');
 
--- Chi tiết phân quyền
 SELECT v.ID, v.TenVaiTro, 
        COUNT(n.ID) AS 'Số người dùng'
 FROM VaiTro v
 LEFT JOIN NguoiDung n ON v.ID = n.VaiTroID
 GROUP BY v.ID, v.TenVaiTro;
--- Danh sách giấy chứng nhận còn hiệu lực
 
 SELECT g.ID, t.Ten AS 'Tổ chức cấp', g.Ten AS 'Tên chứng nhận',
        o.Ten AS 'Đối tượng được cấp', g.NgayCap, g.NgayHetHan
 FROM GiayChungNhan g
 JOIN ToChucChungNhan t ON g.ToChucChungNhanID = t.ID
 JOIN ToChuc_or_CaNhan o ON g.ToChuc_or_CaNhanID = o.ID
-WHERE g.NgayHetHan > GETDATE(); -- Chỉ lấy chứng nhận còn hiệu lực
+WHERE g.NgayHetHan > GETDATE();
 
 SELECT n.ID, n.UserName, n.Email_or_Phone, 
        v.TenVaiTro, d.TenDonVi AS 'Đơn vị',
@@ -545,7 +524,6 @@ JOIN DonViHanhChinh d ON n.DonViHanhChinhID = d.ID
 LEFT JOIN LichSuTruyCap l ON n.ID = l.NguoiDungID
 GROUP BY n.ID, n.UserName, n.Email_or_Phone, v.TenVaiTro, d.TenDonVi, n.TrangThai;
 
--- Thông tin các cơ sở chăn nuôi
 SELECT c.ID, c.TenCoSo, c.DiaChi, c.NgayCapGiayPhep,
        l.TenLoaiCoSo, t.Ten AS 'Chủ sở hữu', dv.TenDonVi AS 'Địa bàn'
 FROM CoSo c
@@ -553,7 +531,6 @@ JOIN LoaiCoSo l ON c.LoaiCoSoID = l.ID
 JOIN ToChuc_or_CaNhan t ON c.ToChuc_or_CaNhanID = t.ID
 JOIN DonViHanhChinh dv ON c.DonViHanhChinhID = dv.ID;
 
--- Danh sách tổ chức/cá nhân
 SELECT ID, Ten, DiaChi, Email_or_Phone,
        CASE 
            WHEN ID IN (SELECT ToChuc_or_CaNhanID FROM CoSo) THEN N'Có cơ sở'
@@ -561,17 +538,14 @@ SELECT ID, Ten, DiaChi, Email_or_Phone,
        END AS TinhTrang
 FROM ToChuc_or_CaNhan;
 
--- Các sản phẩm xử lý chất thải
 SELECT s.ID, s.TenSanPham, s.LoaiSanPham, 
        s.NgaySanXuat, s.NgayHetHan,
        c.TenCoSo, l.TenLoaiCoSo
 FROM SanPhamXuLyChatThai s
 JOIN CoSo c ON s.CoSoID = c.ID
 JOIN LoaiCoSo l ON c.LoaiCoSoID = l.ID
-WHERE s.NgayHetHan > GETDATE(); -- Chỉ lấy sản phẩm còn hạn
+WHERE s.NgayHetHan > GETDATE();
 
-
--- Danh sách tổ chức chứng nhận
 SELECT t.ID, t.Ten, t.DiaChi, t.Email_or_Phone,
        COUNT(g.ID) AS 'Số chứng nhận đã cấp'
 FROM ToChucChungNhan t
