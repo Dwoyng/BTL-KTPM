@@ -95,6 +95,7 @@
     <Compile Include="Models\DonVi.cs" />
     <Compile Include="Models\MigrateResult.cs" />
     <Compile Include="Models\Migration\Provider.cs" />
+    <Compile Include="Models\TaiKhoan.cs" />
     <Compile Include="Models\UpdateContext.cs" />
     <Compile Include="Models\VungChanNuoi.cs" />
     <Compile Include="Views\Admin\Test.cs" />
