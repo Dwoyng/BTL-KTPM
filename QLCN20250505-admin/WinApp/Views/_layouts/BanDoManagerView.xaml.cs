@@ -2,10 +2,11 @@
 using GMap.NET;
 using GMap.NET.WindowsPresentation;
 using GMap.NET.MapProviders;
+using System.Windows.Controls;
 
 namespace WinApp.Views
 {
-    public partial class BanDoManagerView : Window
+    public partial class BanDoManagerView : UserControl   // Sửa Window -> UserControl
     {
         public BanDoManagerView()
         {

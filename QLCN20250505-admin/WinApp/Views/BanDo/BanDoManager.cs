@@ -1,11 +1,7 @@
-﻿namespace WinApp.Views
+﻿namespace WinApp.Views.BanDo
 {
-    public class Index
+    public class BanDoPhanBoView : BaseView<BanDoManagerView>
     {
-        public void ShowMap()
-        {
-            var win = new BanDoManagerView();
-            win.ShowDialog();
-        }
+        // Nếu muốn custom, override RenderCore như các chức năng khác
     }
 }

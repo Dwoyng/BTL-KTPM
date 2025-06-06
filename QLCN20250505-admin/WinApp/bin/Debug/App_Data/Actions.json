@@ -47,7 +47,7 @@
     "DonViHanhChinh/ThongKeHuyen": "Thống kê Huyện",
     "DonViHanhChinh/ThongKePhuong": "Thống kê Phường",
     "DonViHanhChinh/ThongKeXa": "Thống kê Xã",
-    "BanDo/index": "Bản đồ phân bố",
+    "BanDo/bandophanboview": "Bản đồ phân bố",
 
     "qlcn": "Quản Lý Chăn nuôi",
 
@@ -152,7 +152,7 @@
           {
             "Text": "Bản Đồ",
             "Refs": [
-              "BanDo/index"
+              "BanDo/bandophanboview"
             ]
           }
         ]
