@@ -47,6 +47,7 @@
     "DonViHanhChinh/ThongKeHuyen": "Thống kê Huyện",
     "DonViHanhChinh/ThongKePhuong": "Thống kê Phường",
     "DonViHanhChinh/ThongKeXa": "Thống kê Xã",
+    "BanDo/index": "Bản đồ phân bố",
 
     "qlcn": "Quản Lý Chăn nuôi",
 
@@ -146,6 +147,12 @@
               "coso/chicucthuy",
               "coso/dailybanthuoc",
               "coso/khutamgiu"
+            ]
+          },
+          {
+            "Text": "Bản Đồ",
+            "Refs": [
+              "BanDo/index"
             ]
           }
         ]
