@@ -386,3 +386,4 @@ C:\BTL-KTPM\QLCN20250505-admin\WinApp\bin\Debug\System.Data.SQLite.xml
 C:\BTL-KTPM\QLCN20250505-admin\WinApp\bin\Debug\System.Security.Principal.Windows.xml
 C:\BTL-KTPM\QLCN20250505-admin\WinApp\obj\Debug\Views\_layouts\BanDoManagerView.baml
 C:\BTL-KTPM\QLCN20250505-admin\WinApp\obj\Debug\Views\_layouts\BanDoManagerView.g.cs
+C:\BTL-KTPM\QLCN20250505-admin\WinApp\obj\Debug\WinApp_Content.g.cs
