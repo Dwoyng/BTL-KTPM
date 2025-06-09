@@ -22,5 +22,10 @@ namespace WinApp.Views
             gmap.Zoom = 10;
             gmap.ShowCenter = false;
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

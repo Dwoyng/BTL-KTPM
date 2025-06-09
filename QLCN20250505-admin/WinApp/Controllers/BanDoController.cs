@@ -2,11 +2,11 @@
 
 namespace WinApp.Controllers
 {
-    public class BanDoController : Controller
+    class BanDoController : BaseController
     {
-        public object Index()
+        public override object Index()
         {
-            return new WinApp.Views.BanDo.BanDoPhanBoView();
+            return View();
         }
     }
 }

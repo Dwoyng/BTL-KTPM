@@ -4,6 +4,6 @@
     xmlns:gmap="clr-namespace:GMap.NET.WindowsPresentation;assembly=GMap.NET.WindowsPresentation">
     <Grid>
         <gmap:GMapControl x:Name="gmap" Loaded="Gmap_Loaded" Margin="10"/>
-        <Button Content="Làm mới" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10"/>
+        <Button Content="Làm mới" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,10,0,0" Height="24" Width="60" Click="Button_Click"/>
     </Grid>
 </UserControl>

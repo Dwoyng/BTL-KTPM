@@ -2,7 +2,7 @@
 
 namespace WinApp.Views.BanDo
 {
-    public class BanDoPhanBoView : BaseView<BanDoManagerView>
+    public class Index : BaseView<BanDoManagerView>
     {
         protected override object CreateLayout()
         {
